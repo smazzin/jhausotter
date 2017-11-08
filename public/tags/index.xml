@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Joshua Hausotter</title>
-    <link>http://jhausotter.com/tags/</link>
+    <link>http://162.243.143.34/tags/</link>
     <description>Recent content in Tags on Joshua Hausotter</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://jhausotter.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://162.243.143.34/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>UI</title>
-      <link>http://jhausotter.com/tags/ui/</link>
+      <link>http://162.243.143.34/tags/ui/</link>
       <pubDate>Fri, 27 Oct 2017 16:45:44 -0700</pubDate>
       
-      <guid>http://jhausotter.com/tags/ui/</guid>
+      <guid>http://162.243.143.34/tags/ui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Design</title>
-      <link>http://jhausotter.com/tags/web-design/</link>
+      <link>http://162.243.143.34/tags/web-design/</link>
       <pubDate>Fri, 27 Oct 2017 16:45:44 -0700</pubDate>
       
-      <guid>http://jhausotter.com/tags/web-design/</guid>
+      <guid>http://162.243.143.34/tags/web-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wordpress</title>
-      <link>http://jhausotter.com/tags/wordpress/</link>
+      <link>http://162.243.143.34/tags/wordpress/</link>
       <pubDate>Fri, 27 Oct 2017 16:45:44 -0700</pubDate>
       
-      <guid>http://jhausotter.com/tags/wordpress/</guid>
+      <guid>http://162.243.143.34/tags/wordpress/</guid>
       <description></description>
     </item>
     

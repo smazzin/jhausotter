@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joshua Hausotter | Website Design | Southern Oregon on Joshua Hausotter</title>
-    <link>http://jhausotter.com/</link>
+    <link>http://162.243.143.34/</link>
     <description>Recent content in Joshua Hausotter | Website Design | Southern Oregon on Joshua Hausotter</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 27 Oct 2017 16:45:44 -0700</lastBuildDate>
     
-	<atom:link href="http://jhausotter.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://162.243.143.34/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sauntes Wellness Center</title>
-      <link>http://jhausotter.com/portfolio/sauntes/</link>
+      <link>http://162.243.143.34/portfolio/sauntes/</link>
       <pubDate>Fri, 27 Oct 2017 16:45:44 -0700</pubDate>
       
-      <guid>http://jhausotter.com/portfolio/sauntes/</guid>
+      <guid>http://162.243.143.34/portfolio/sauntes/</guid>
       <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About Joshua Hausotter | Web Designer</title>
-      <link>http://jhausotter.com/about/</link>
+      <link>http://162.243.143.34/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jhausotter.com/about/</guid>
+      <guid>http://162.243.143.34/about/</guid>
       <description>Hello I&amp;rsquo;m Josh, an experienced web designer / developer. My passion is for anything web related. In my spare time I do freelance web design and web development. I enjoy snowboarding, coffee, and love the outdoors.
 I specialize in creating websites that are user-friendly and built according to best-practice web standards. If you are a business seeking a web presence, you can get in touch with me here.</description>
     </item>
     
     <item>
       <title>Setting Up Lucee on Mac Os X Yosemite</title>
-      <link>http://jhausotter.com/blog/setting-up-lucee-on-mac-os-x-yosemite/</link>
+      <link>http://162.243.143.34/blog/setting-up-lucee-on-mac-os-x-yosemite/</link>
       <pubDate>Tue, 16 Jun 2015 06:11:26 +0000</pubDate>
       
-      <guid>http://jhausotter.com/blog/setting-up-lucee-on-mac-os-x-yosemite/</guid>
+      <guid>http://162.243.143.34/blog/setting-up-lucee-on-mac-os-x-yosemite/</guid>
       <description>&lt;h2 id=&#34;getting-lucee-on-mac-os-x-yosemite-running-apache-http-with-virtual-hosts-and-tomcat-8-locally-steps&#34;&gt;Getting Lucee on mac os x yosemite running apache HTTP (with virtual hosts) and tomcat 8 locally steps&lt;/h2&gt;
 
 &lt;p&gt;Initially I started out by installing tomcat 8. I followed this guide &lt;a href=&#34;http://wolfpaulus.com/jounal/mac/tomcat8/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
@@ -44,10 +44,10 @@ I specialize in creating websites that are user-friendly and built according to 
     
     <item>
       <title>Contact Joshua Hausotter | Professional web design and development in Oregon</title>
-      <link>http://jhausotter.com/contact/</link>
+      <link>http://162.243.143.34/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jhausotter.com/contact/</guid>
+      <guid>http://162.243.143.34/contact/</guid>
       <description></description>
     </item>
     

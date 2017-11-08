@@ -2,73 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jhausotter.com/portfolio/sauntes/</loc>
+    <loc>http://162.243.143.34/portfolio/sauntes/</loc>
     <lastmod>2017-10-27T16:45:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/about/</loc>
+    <loc>http://162.243.143.34/about/</loc>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/blog/setting-up-lucee-on-mac-os-x-yosemite/</loc>
+    <loc>http://162.243.143.34/blog/setting-up-lucee-on-mac-os-x-yosemite/</loc>
     <lastmod>2015-06-16T06:11:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/authors/</loc>
+    <loc>http://162.243.143.34/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/blog/</loc>
+    <loc>http://162.243.143.34/blog/</loc>
     <lastmod>2015-06-16T06:11:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/categories/</loc>
+    <loc>http://162.243.143.34/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/contact/</loc>
+    <loc>http://162.243.143.34/contact/</loc>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/authors/jhausotter/</loc>
+    <loc>http://162.243.143.34/authors/jhausotter/</loc>
     <lastmod>2015-06-16T06:11:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/</loc>
+    <loc>http://162.243.143.34/</loc>
     <lastmod>2017-10-27T16:45:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/portfolio/</loc>
+    <loc>http://162.243.143.34/portfolio/</loc>
     <lastmod>2017-10-27T16:45:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/tags/</loc>
+    <loc>http://162.243.143.34/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/tags/ui/</loc>
-    <lastmod>2017-10-27T16:45:44-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://jhausotter.com/tags/web-design/</loc>
+    <loc>http://162.243.143.34/tags/ui/</loc>
     <lastmod>2017-10-27T16:45:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jhausotter.com/tags/wordpress/</loc>
+    <loc>http://162.243.143.34/tags/web-design/</loc>
+    <lastmod>2017-10-27T16:45:44-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://162.243.143.34/tags/wordpress/</loc>
     <lastmod>2017-10-27T16:45:44-07:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Joshua Hausotter</title>
-    <link>http://jhausotter.com/authors/</link>
+    <link>http://162.243.143.34/authors/</link>
     <description>Recent content in Authors on Joshua Hausotter</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://jhausotter.com/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://162.243.143.34/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jhausotter</title>
-      <link>http://jhausotter.com/authors/jhausotter/</link>
+      <link>http://162.243.143.34/authors/jhausotter/</link>
       <pubDate>Tue, 16 Jun 2015 06:11:26 +0000</pubDate>
       
-      <guid>http://jhausotter.com/authors/jhausotter/</guid>
+      <guid>http://162.243.143.34/authors/jhausotter/</guid>
       <description></description>
     </item>
     
