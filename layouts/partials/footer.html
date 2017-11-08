@@ -1,0 +1,35 @@
+	<footer class="footer">
+  <div class="grid grid--container">
+      <div class="row row--sm-center">
+        <div class="col col--sm">
+          <p>
+            {{- with .Site.Copyright -}}
+              {{ . }}
+            {{- else -}}
+              {{- with .Site.Params.copyright -}}
+
+                {{ with .startyear }}
+                  {{ if lt ( int . ) now.Year }}
+                    {{ $.Scratch.Set "copyrightStartYear" . }}
+                  {{ end }}
+                {{ end }}
+
+                {{ .prefix }} &copy; {{ with ( $.Scratch.Get "copyrightStartYear" ) }}{{ . }}-{{ end }}{{ now.Year }} {{ or .holder $.Site.Title }} {{ .suffix }}
+              {{- end -}}
+            {{ end }}
+        </p>
+        </div>
+        <div class="col col--sm text--sm-right">
+          <!--
+          {{ partial "nav/menus/social.html" .}}
+          -->
+          <a class="ghost-button-rounded-corners-white" href="#">Contact</a>
+        
+        </div>
+        
+      </div>
+    </div>
+	</footer>
+</body>
+<script src="{{ .Site.BaseURL }}js/script.js"></script>
+</html>

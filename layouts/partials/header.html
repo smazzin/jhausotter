@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Title }}</title>
+  <meta name="description" content="{{ .Description }}">
+	<meta property="og:description" content="{{ .Description }}">
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/themes/prism-coy.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.js"></script>
+	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
+	{{ .Hugo.Generator }}
+  <script type="text/javascript">
+    window.onload = function prism() 
+    {
+      var pr = document.getElementsByTagName('pre');
+      // Loop the NodeList through
+      for (var i = 0; i < pr.length; i++) {
+          pr[i].className += 'language-css';
+      }
+      var co = document.getElementsByTagName('code');
+      // Loop the NodeList through
+      for (var i = 0; i < co.length; i++) {
+          co[i].className += 'language-css';
+      }
+    }
+
+  </script>
+</head>
+<body>
+
+<div id="nav-background">
+  <div id="nav-container">
+    <header id="nav-header">
+      <span>
+      	<a href="{{ .Site.BaseURL }}" id="nav-logo">{{ .Site.Title }}</a>
+      </span>
+      <div id="nav-menu-button">MENU</div>
+    </header>
+    <nav>
+      <ul class="nav-ul hide-ul">
+				{{ range .Site.Menus.main }}
+				<li><a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+				{{ end }}
+      </ul>
+    </nav>
+  </div>
+</div>

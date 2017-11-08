@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+
+
+<div class="section header">
+  <div class="grid">
+    <div class="row">
+      <div class="col col--sm col--sm-align-center">
+        <h1>{{- .Site.Params.info.title404 | default .Title -}}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="error">
+  <div class="grid grid--container">
+    <div class="row">
+      <div class="col col--sm">
+        <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{ partial "footer" . }}

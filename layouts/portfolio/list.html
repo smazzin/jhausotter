@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+<div class="section header">
+  <div class="grid">
+      <div class="row">
+        <div class="col col--sm col--sm-align-center">
+          <h1>{{ .Params.PageTitle }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="grid grid--container">
+
+    <div class="row">
+        
+        <div class="col col--sm">
+          {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} <hr> {{ end }}
+
+          {{ partial "paginator" . }}
+
+        </div>
+    </div>
+  </div>
+</div>
+
+
+{{ partial "footer.html" . }}
