@@ -10,7 +10,7 @@ preserveTaxonomyNames = true
 
 canonifyURLs = true
 
-enableRobotsTXT = false # generate robots.txt
+enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
