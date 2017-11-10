@@ -30,7 +30,7 @@ description: "Joshua Hausotter is a web designer & developer in Oregon. Looking 
       </div>
       <div class="col col--sm-6">
         <h3>Need a new website?</h3>
-        <p>I can design &amp; develop what you want. I like to keep it simple and convey the message you want to send.</p>
+        <p>I like to keep it simple and convey the message you want to send. I can design &amp; develop what you want.</p>
         <a href="#" class="ghost-button-rounded-corners">View Recent Projects</a>
       </div>
     </div>
@@ -75,7 +75,7 @@ description: "Joshua Hausotter is a web designer & developer in Oregon. Looking 
       <span class="dot"></span>
     </div>
     <div class="col col--sm-6">
-      <h3>Read to do this, lets talk?</h3>
+      <h3>Ready to do this, lets talk?</h3>
       <p>If you have a project that you want to get started or
         think you might need my help with your website? </p>
           <a href="#" class="ghost-button-rounded-corners">Lets Talk</a>

@@ -135,6 +135,12 @@
 		"oAP": "\/layouts\/portfolio\/list.html",
 		"oF": 0
 		},
+	"\/layouts\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/robots.txt",
+		"oF": 0
+		},
 	"\/public\/404.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -305,6 +311,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/portfolio\/sauntes\/index.html",
+		"oF": 0
+		},
+	"\/public\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/robots.txt",
 		"oF": 0
 		},
 	"\/public\/sass\/_variables.scss": {
