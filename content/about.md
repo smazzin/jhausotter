@@ -14,4 +14,4 @@ In my spare time I do freelance web design and web development. I enjoy snowboar
 
 ******
 
-This site was built with Hugo, a static site generator. Hugo is fast and was simple to learn. Curious on [how I configured this site with nginx + ngx_pagespeed](here) to acheive optimal performance?
+This site was built with Hugo, a static site generator. Hugo is fast and was simple to learn. Curious on how I configured this site with nginx + ngx_pagespeed to acheive optimal performance?
