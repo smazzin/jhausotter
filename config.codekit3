@@ -580,6 +580,12 @@
 		"oAP": "\/public\/tags\/wordpress\/page\/1\/index.html",
 		"oF": 0
 		},
+	"\/public\/thank-you\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/thank-you\/index.html",
+		"oF": 0
+		},
 	"\/static\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,

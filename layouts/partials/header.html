@@ -4,6 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- noindex meta -->
+  {{ $default_noindex_kinds := slice "section" "taxonomy" "taxonomyTerm" }}
+  {{ $noindex_kinds := .Site.Params.noindex_kinds | default $default_noindex_kinds }}
+  {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
+  {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
+  <meta name="robots" content="noindex">
+  {{ end }}
 	<title>{{ .Title }}</title>
   <meta name="description" content="{{ .Description }}">
 	<meta property="og:description" content="{{ .Description }}">
@@ -15,6 +22,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/themes/prism-coy.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.js"></script>
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
+  <link rel="canonical" href="{{ .URL | relURL }}"> {{ if (isset .Params "prev") }}
+  <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
+  <link rel="next" href="{{ .Params.next }}"> {{ end }}
 	{{ .Hugo.Generator }}
   <script type="text/javascript">
     window.onload = function prism() 

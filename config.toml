@@ -25,6 +25,10 @@ title404 = "Page Not Found"
 [params]
 description = "Site stuff for being a good site with internet tubez."
 pagetitle = "Hello"
+noindex_kinds = [
+  "taxonomy",
+  "taxonomyTerm"
+]
 
 [params.assets]
 favicon = "favicon.ico"
@@ -102,4 +106,3 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
-
