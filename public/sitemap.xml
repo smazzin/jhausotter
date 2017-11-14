@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://162.243.143.34/portfolio/sauntes/</loc>
@@ -8,11 +10,6 @@
   
   <url>
     <loc>http://162.243.143.34/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://162.243.143.34/thank-you/</loc>
-    <lastmod>2017-11-10T16:20:50-08:00</lastmod>
   </url>
   
   <url>
