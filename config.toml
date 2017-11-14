@@ -6,7 +6,7 @@ copyright = ""
 googleAnalytics = ""
 
 Paginate = 5
-preserveTaxonomyNames = true
+preserveTaxonomyNames = false
 
 canonifyURLs = true
 
@@ -29,6 +29,8 @@ noindex_kinds = [
   "taxonomy",
   "taxonomyTerm"
 ]
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params.assets]
 favicon = "favicon.ico"

@@ -3,10 +3,11 @@ date: "2017-11-10T16:20:50-08:00"
 title: "Thank-You"
 authors: []
 tags: []
-pagetitle:
+pagetitle: Thank You
 image: ""
 showonlyimage: "false"
 noindex: "true"
+sitemap_exclude: true
 ---
 
 

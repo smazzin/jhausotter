@@ -141,6 +141,12 @@
 		"oAP": "\/layouts\/robots.txt",
 		"oF": 0
 		},
+	"\/layouts\/sitemap.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/sitemap.xml",
+		"oF": 0
+		},
 	"\/public\/404.html": {
 		"ft": 8192,
 		"oA": 2,
