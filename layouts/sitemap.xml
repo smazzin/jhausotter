@@ -18,5 +18,5 @@
                 href="{{ .Permalink }}"
                 />{{ end }}
   </url>
-  {{ end }}{{ end }}
+  {{ end }}{{ end }} 
 </urlset>
