@@ -8,7 +8,7 @@
     <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
     <xhtml:link
-                rel="alternate"
+                rel="alternate" 
                 hreflang="{{ .Lang }}"
                 href="{{ .Permalink }}"
                 />{{ end }}

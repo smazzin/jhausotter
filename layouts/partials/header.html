@@ -10,7 +10,7 @@
   {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
   {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
   <meta name="robots" content="noindex">
-  {{ end }}
+  {{ end }} 
 	<title>{{ .Title }}</title> 
   <meta name="description" content="{{ .Description }}">
 	<meta property="og:description" content="{{ .Description }}">

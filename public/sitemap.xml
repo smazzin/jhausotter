@@ -18,28 +18,12 @@
   </url>
   
   <url>
-    <loc>http://162.243.143.34/authors/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://162.243.143.34/blog/</loc>
     <lastmod>2015-06-16T06:11:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://162.243.143.34/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://162.243.143.34/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>http://162.243.143.34/authors/jhausotter/</loc>
-    <lastmod>2015-06-16T06:11:26+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -50,29 +34,6 @@
   <url>
     <loc>http://162.243.143.34/portfolio/</loc>
     <lastmod>2017-10-27T16:45:44-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://162.243.143.34/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://162.243.143.34/tags/ui/</loc>
-    <lastmod>2017-10-27T16:45:44-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://162.243.143.34/tags/web-design/</loc>
-    <lastmod>2017-10-27T16:45:44-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://162.243.143.34/tags/wordpress/</loc>
-    <lastmod>2017-10-27T16:45:44-07:00</lastmod>
-    <priority>0</priority>
   </url>
    
 </urlset>

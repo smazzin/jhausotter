@@ -29,7 +29,6 @@ noindex_kinds = [
   "taxonomy",
   "taxonomyTerm"
 ]
-
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params.assets]
