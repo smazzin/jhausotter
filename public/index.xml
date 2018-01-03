@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joshua Hausotter | Website Design | Southern Oregon on Joshua Hausotter</title>
+    <link>http://jhausotter.com/</link>
+    <description>Recent content in Joshua Hausotter | Website Design | Southern Oregon on Joshua Hausotter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 27 Oct 2017 16:45:44 -0700</lastBuildDate>
+    
+	<atom:link href="http://jhausotter.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sauntes Wellness Center</title>
+      <link>http://jhausotter.com/portfolio/sauntes/</link>
+      <pubDate>Fri, 27 Oct 2017 16:45:44 -0700</pubDate>
+      
+      <guid>http://jhausotter.com/portfolio/sauntes/</guid>
+      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Joshua Hausotter | Web Designer</title>
+      <link>http://jhausotter.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jhausotter.com/about/</guid>
+      <description>Hello I&amp;rsquo;m Josh, an experienced web designer / developer. My passion is for anything web related. I specialize in creating websites that are user-friendly and built according to best-practice web standards. If you are a business seeking a web presence, you can get in touch with me here.
+In my spare time I do freelance web design and web development. I enjoy snowboarding, coffee, and love the outdoors.
+This site was built with Hugo, a static site generator.</description>
+    </item>
+    
+    <item>
+      <title>Thank-You</title>
+      <link>http://jhausotter.com/thank-you/</link>
+      <pubDate>Fri, 10 Nov 2017 16:20:50 -0800</pubDate>
+      
+      <guid>http://jhausotter.com/thank-you/</guid>
+      <description>Thank you h2 h3 h4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis consequuntur cum necessitatibus blanditiis quaerat accusamus eius eligendi? Eos temporibus commodi maxime excepturi ut, incidunt pariatur cupiditate tempore praesentium illum ipsam.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Lucee on Mac Os X Yosemite</title>
+      <link>http://jhausotter.com/blog/setting-up-lucee-on-mac-os-x-yosemite/</link>
+      <pubDate>Tue, 16 Jun 2015 06:11:26 +0000</pubDate>
+      
+      <guid>http://jhausotter.com/blog/setting-up-lucee-on-mac-os-x-yosemite/</guid>
+      <description>&lt;h2 id=&#34;getting-lucee-on-mac-os-x-yosemite-running-apache-http-with-virtual-hosts-and-tomcat-8-locally-steps&#34;&gt;Getting Lucee on mac os x yosemite running apache HTTP (with virtual hosts) and tomcat 8 locally steps&lt;/h2&gt;
+
+&lt;p&gt;Initially I started out by installing tomcat 8. I followed this guide &lt;a href=&#34;http://wolfpaulus.com/jounal/mac/tomcat8/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact Joshua Hausotter | Professional web design and development in Oregon</title>
+      <link>http://jhausotter.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jhausotter.com/contact/</guid>
+      <description>Are you a business seeking a web presence or wanting to show up on Google?
+If you have a project that you want to get started or think you might need my help with, fill out the form below and I will try my best to respond to your email ASAP.
+ Send  </description>
+    </item>
+    
+  </channel>
+</rss>

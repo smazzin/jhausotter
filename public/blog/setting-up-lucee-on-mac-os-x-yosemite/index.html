@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+  
+  
+  
+  
+	<title>Setting Up Lucee on Mac Os X Yosemite</title>
+  <meta name="description" content="">
+	<meta property="og:description" content="">
+	
+  <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="http://jhausotter.com/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/themes/prism-coy.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.js"></script>
+	
+  <link rel="canonical" href="http://jhausotter.com/blog/setting-up-lucee-on-mac-os-x-yosemite/">  
+	<meta name="generator" content="Hugo 0.31.1" />
+  <script type="text/javascript">
+    window.onload = function prism()
+    {
+      var pr = document.getElementsByTagName('pre');
+      
+      for (var i = 0; i < pr.length; i++) {
+          pr[i].className += 'language-css';
+      }
+      var co = document.getElementsByTagName('code');
+      
+      for (var i = 0; i < co.length; i++) {
+          co[i].className += 'language-css';
+      }
+    }
+
+  </script>
+  <script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Person",
+  "name" : "Joshua Hausotter",
+  "image": "/img/josh-avatar.jpg",
+  "url" : "https://jhausotter.com",
+  "sameAs" : [
+    "https://twitter.com/staywyld",
+    "http://instagram.com/jhausotter/",
+    "https://plus.google.com/u/0/100315376894555391355",
+    "https://www.flickr.com/photos/joshuaj/"
+  ]
+}
+</script>
+</head>
+<body>
+
+<div id="nav-background">
+  <div id="nav-container">
+    <header id="nav-header">
+      <span>
+      	<a href="http://jhausotter.com/" id="nav-logo">Joshua Hausotter</a>
+      </span>
+      <div id="nav-menu-button">MENU</div>
+    </header>
+    <nav>
+      <ul class="nav-ul hide-ul">
+				
+				<li><a class="nav-link" href="http://jhausotter.com/portfolio">Portfolio</a></li>
+				
+				<li><a class="nav-link" href="http://jhausotter.com/about">About</a></li>
+				
+				<li><a class="nav-link" href="http://jhausotter.com/blog">Blog</a></li>
+				
+				<li><a class="nav-link" href="http://jhausotter.com/contact">Contact</a></li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<article>
+  <div class="section header">
+    <div class="grid grid--container">
+      <div class="row">
+        <div class="col col--sm-12">
+          <h1>Setting up Lucee on Mac OS X Yosemite</h1>
+        </div> 
+        <div class="col col--sm-12"><span class='posted-on'>
+          <span class='screen-reader'>Posted on </span>
+          <time class='date' datetime='2015-06-16T06:11:26Z'>Jun 16, 2015</time>
+        </span><span class='byline'>
+            
+            <span class='screen-reader'> by </span>Josh Hausotter</span>
+          <span class='reading-time'>
+            3 mins read
+          </span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="grid grid--container">
+      <div class="row">
+        <div class="col col--sm">
+            <h2 id="getting-lucee-on-mac-os-x-yosemite-running-apache-http-with-virtual-hosts-and-tomcat-8-locally-steps">Getting Lucee on mac os x yosemite running apache HTTP (with virtual hosts) and tomcat 8 locally steps</h2>
+
+<p>Initially I started out by installing tomcat 8. I followed this guide <a href="http://wolfpaulus.com/jounal/mac/tomcat8/" target="_blank">here</a>.
+</p>
+
+<p>Next I followed the instructions for getting Lucee up and running locally <a href="https://bitbucket.org/lucee/lucee/wiki/Installing%20Tomcat%20and%20Lucee%20on%20OS%20X%20using%20the%20lucee%20.war%20file" target="_blank">Found here</a>.</p>
+
+<p>I then made sure I could browse to localhost:8080/lucee/admin/web.cfm and verified Lucee was installed.</p>
+
+<p>Next when reading through <a href="https://bitbucket.org/lucee/lucee/wiki/Installing%20and%20configuring%20Lucee%20(JAR%20files)%20on%20Windows" target="_blank">this page</a>.</p>
+
+<p>I Edited my web.xml file In the web.xml file (can be found here: Your-path/to/Tomcat/conf/web.xml.) At the end of the web.xml file, you will find this list:</p>
+
+<pre><code>&lt;welcome-file-list&gt;
+      &lt;welcome-file&gt;index.html&lt;/welcome-file&gt;
+      &lt;welcome-file&gt;index.htm&lt;/welcome-file&gt;
+      &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+&lt;/welcome-file-list&gt;
+</code></pre>
+
+<p>Append new line containing index.cfm as the last line: So it should look like the following now:</p>
+
+<pre><code>  &lt;welcome-file-list&gt;
+      &lt;welcome-file&gt;index.html&lt;/welcome-file&gt;
+      &lt;welcome-file&gt;index.htm&lt;/welcome-file&gt;
+      &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+      &lt;welcome-file&gt;index.cfm&lt;/welcome-file&gt;
+  &lt;/welcome-file-list&gt;
+</code></pre>
+
+<p>Below this list, new servlets and their mappings must be added: Note: if you DID follow the instructions from the link above for installing tomcat 8 for the following line: <param-value>/Library/Tomcat/Lucee</param-value> you can just do a straight copy and paste of what i have below and should be fine leaving as is.</p>
+
+<p>If not It would be something like the following Example:</p>
+
+<pre><code>&lt;param-value&gt;/Your/Path/To/Lucee&lt;/param-value&gt;
+
+&lt;servlet&gt;
+    &lt;servlet-name&gt;CFMLServlet&lt;/servlet-name&gt;
+    &lt;description&gt;CFML runtime Engine&lt;/description&gt;
+    &lt;servlet-class&gt;lucee.loader.servlet.CFMLServlet&lt;/servlet-class&gt;
+    &lt;init-param&gt;
+       &lt;param-name&gt;lucee-server-directory&lt;/param-name&gt;
+       &lt;param-value&gt;/Library/Tomcat/Lucee&lt;/param-value&gt;
+       &lt;description&gt;Lucee Server configuration directory (for Server-wide configurations, settings, and libraries)&lt;/description&gt;
+    &lt;/init-param&gt;
+    &lt;init-param&gt;
+        &lt;param-name&gt;lucee-web-directory&lt;/param-name&gt;
+        &lt;param-value&gt;{web-root-directory}/WEB-INF/lucee/&lt;/param-value&gt;
+        &lt;description&gt;Lucee Web Directory (for Website-specific configurations, settings, and libraries)&lt;/description&gt;
+    &lt;/init-param&gt;
+    &lt;load-on-startup&gt;1&lt;/load-on-startup&gt;
+&lt;/servlet&gt;
+
+&lt;servlet&gt;
+    &lt;servlet-name&gt;RESTServlet&lt;/servlet-name&gt;
+    &lt;description&gt;Servlet to access REST service&lt;/description&gt;
+    &lt;servlet-class&gt;lucee.loader.servlet.RestServlet&lt;/servlet-class&gt;
+    &lt;load-on-startup&gt;2&lt;/load-on-startup&gt;
+&lt;/servlet&gt;
+
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;CFMLServlet&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;*.cfm&lt;/url-pattern&gt;
+    &lt;url-pattern&gt;*.cfml&lt;/url-pattern&gt;
+    &lt;url-pattern&gt;*.cfc&lt;/url-pattern&gt;
+    &lt;url-pattern&gt;/index.cfm/*&lt;/url-pattern&gt;
+    &lt;url-pattern&gt;/index.cfc/*&lt;/url-pattern&gt;
+    &lt;url-pattern&gt;/index.cfml/*&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;RESTServlet&lt;/servlet-name&gt;
+     &lt;url-pattern&gt;/rest/*&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+</code></pre>
+
+<h3 id="configuring-apache-http-server">Configuring apache HTTP server</h3>
+
+<p>It was this post below by Gavin Pickin that really helped me out a lot with my current setup <a href="http://www.gpickin.com/index.cfm/blog/apache-and-tomcat-save-yourself-the-xml-editing-no-more-tomcat-restarts" target="_blank">http://www.gpickin.com/index.cfm/blog/apache-and-tomcat-save-yourself-the-xml-editing-no-more-tomcat-restarts</a></p>
+
+<p>Gavin gave an excellent solution that I used. Thank you Gavin for this post. He does a pretty good job at explaining in detail better than I will here.</p>
+
+<p>To get to the nitty gritty: Edit your server.xml file (/Library/Tomcat/conf OR your-path-to/tomcat/conf/server.xml)</p>
+
+<p><strong>Found at the bottom of the file you will see this chunk of code:</strong></p>
+
+<pre><code>&lt;Host name=&quot;localhost&quot;  appBase=&quot;webapps&quot;
+            unpackWARs=&quot;true&quot; autoDeploy=&quot;true&quot;&gt;
+        &lt;!-- SingleSignOn valve, share authentication between web applications
+             Documentation at: /docs/config/valve.html --&gt;
+
+        &lt;Valve className=&quot;org.apache.catalina.authenticator.SingleSignOn&quot; /&gt;
+
+        &lt;!-- Access log processes all example.
+             Documentation at: /docs/config/valve.html
+             Note: The pattern used is equivalent to using pattern=&quot;common&quot; --&gt;
+        &lt;Valve className=&quot;org.apache.catalina.valves.AccessLogValve&quot; directory=&quot;logs&quot;
+               prefix=&quot;localhost_access_log&quot; suffix=&quot;.txt&quot;
+               pattern=&quot;%h %l %u %t &amp;quot;%r&amp;quot; %s %b&quot; /&gt;
+      &lt;/Host&gt;
+</code></pre>
+
+<p><strong>I edited mine so it now looks like the following:</strong></p>
+
+<pre><code>&lt;Host name=&quot;localhost&quot;  appBase=&quot;webapps&quot; unpackWARs=&quot;true&quot; autoDeploy=&quot;true&quot;&gt;
+
+    &lt;Context path=&quot;&quot; docBase=&quot;/your/path/to/websites&quot; /&gt;
+
+    &lt;Valve className=&quot;org.apache.catalina.authenticator.SingleSignOn&quot; /&gt;
+
+  &lt;Valve className=&quot;org.apache.catalina.valves.AccessLogValve&quot; directory=&quot;logs&quot;
+               prefix=&quot;localhost_access_log&quot; suffix=&quot;.txt&quot;
+               pattern=&quot;%h %l %u %t &amp;quot;%r&amp;quot; %s %b&quot; /&gt;
+    &lt;/Host&gt;
+</code></pre>
+
+<p>Your context docBase would just be wherever your current local web directory is.</p>
+
+<p>Save file. Restart tomcat.</p>
+
+<p>Again, in Gavin&rsquo;s post found <a href="http://www.gpickin.com/index.cfm/blog/apache-and-tomcat-save-yourself-the-xml-editing-no-more-tomcat-restarts" target="_blank">here</a> He goes into greater detail than I do about editing your .conf files.</p>
+
+<p>Next we will want to edit our httpd-vhosts file (your-path-to/etc/apache2/extra/httpd-vhosts.conf). This is if you are using virtual hosts set up on your dev machine. With my current set up, I am.</p>
+
+<p>We will want to add the following inside one of your virtual host you have set up.</p>
+
+<pre><code>&lt;Proxy *&gt;
+    Allow from 127.0.0.1
+    &lt;/Proxy&gt;
+    ProxyPreserveHost On
+    ProxyPassMatch ^/(.+\.cf[cm])(/.*)?$ ajp://localhost:8009/jhausotter/$1$2
+</code></pre>
+
+<p>So it should look like:</p>
+
+<pre><code>&lt;Directory &quot;/Users/hausotter/sites/jhausotter/&quot;&gt;
+Allow From All
+AllowOverride All
+Options +Indexes
+Require all granted
+DirectoryIndex index.cfm
+&lt;/Directory&gt;
+&lt;VirtualHost *:8001&gt;
+    ServerName &quot;local.jhaus&quot;
+    ServerAlias &quot;local.jhaus.*.*.*.*.xip.io&quot;
+    DocumentRoot &quot;/Users/hausotter/sites/jhausotter&quot;
+    &lt;Proxy *&gt;
+    Allow from 127.0.0.1
+    &lt;/Proxy&gt;
+    ProxyPreserveHost On
+    ProxyPassMatch ^/(.+\.cf[cm])(/.*)?$ ajp://localhost:8009/jhausotter/$1$2   
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p>After you make your changes to your httpd-vhosts.conf file, save it. Restart apache. You should now be rockin lucee. Note:I have my local sites running on separate ports (easier for me to manage) Your setup may differ from mine.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+	<footer class="footer">
+  <div class="grid grid--container">
+      <div class="row row--sm-center">
+        <div class="col col--sm">
+          <p>
+                  
+                    
+                  
+                
+
+                 &copy; 2015-2018 Joshua Hausotter 
+        </p>
+        </div>
+        <div class="col col--sm text--sm-right">
+          
+          <a class="ghost-button-rounded-corners-white" href="#">Contact</a>
+        
+        </div>
+        
+      </div>
+    </div>
+	</footer>
+</body>
+<script src="http://jhausotter.com/js/script.js"></script>
+</html>
+
