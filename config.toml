@@ -1,4 +1,4 @@
-baseURL = "http://162.243.143.34/"
+baseURL = "http://jhausotter/"
 title = "Joshua Hausotter"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -29,6 +29,7 @@ noindex_kinds = [
   "taxonomy",
   "taxonomyTerm"
 ]
+
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params.assets]
@@ -65,10 +66,14 @@ twitter = "staywyld"
 [params.social.config]
 platforms = ["github","twitter","instagram","email"]
 
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
+# [taxonomies]
+#   author = "authors"
+#   category = "categories"
+#   tag = "tags"
+
+# [taxonomies]
+#     category = "categories"
+#     tag = "tags"
 
 [permalinks]
 page = "/:slug/"
