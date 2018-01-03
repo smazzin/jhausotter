@@ -10,11 +10,12 @@
   {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
   {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
   <meta name="robots" content="noindex">
-  {{ end }} 
-	<title>{{ .Title }}</title> 
+  {{ end }}
+	<title>{{ .Title }}</title>
   <meta name="description" content="{{ .Description }}">
 	<meta property="og:description" content="{{ .Description }}">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
@@ -27,7 +28,7 @@
   <link rel="next" href="{{ .Params.next }}"> {{ end }}
 	{{ .Hugo.Generator }}
   <script type="text/javascript">
-    window.onload = function prism() 
+    window.onload = function prism()
     {
       var pr = document.getElementsByTagName('pre');
       // Loop the NodeList through
