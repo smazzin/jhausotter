@@ -53,8 +53,8 @@ description: "Joshua Hausotter is a web designer & developer in Oregon. Looking 
       <div class="col col--sm-6">
         <h3>Want to show up on Google?</h3>
         <p>I won’t wave a feathered stick around over a bowl of
-          egg shells, chanting about keywords and meta tags. 
-          I can however, help your site show up on Google, and 
+          egg shells, chanting about keywords and meta tags.
+          I can however, help your site show up on Google, and
           ensure SEO best-practices.</p>
       </div>
     </div>
@@ -78,7 +78,7 @@ description: "Joshua Hausotter is a web designer & developer in Oregon. Looking 
       <h3>Ready to do this, lets talk?</h3>
       <p>If you have a project that you want to get started or
         think you might need my help with your website? </p>
-          <a href="#" class="ghost-button-rounded-corners">Lets Talk</a>
+          <a href="/contact" class="ghost-button-rounded-corners">Lets Talk</a>
     </div>
   </div>
 </div>
