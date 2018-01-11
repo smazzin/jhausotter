@@ -1,3 +1,4 @@
+<!--
 {{ partial "header.html" . }}
 <div class="section header">
   <div class="grid">
@@ -12,7 +13,7 @@
   <div class="grid grid--container">
 
     <div class="row">
-        
+
         <div class="col col--sm">
           {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} <hr> {{ end }}
 
@@ -23,5 +24,54 @@
   </div>
 </div>
 
+
+{{ partial "footer.html" . }}
+-->
+
+{{ partial "header.html" . }}
+
+<div class="section header">
+  <div class="grid">
+      <div class="row">
+        <div class="col col--sm col--sm-align-center">
+          <h1>{{ .Params.PageTitle }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="grid grid--container">
+    <div class="row">
+        <div class="col col--sm">
+
+        {{ range .Site.Data.portfolio }}
+        <div class="row item">
+          <div class="col col--sm col--sm-align-center">
+             <div class="box-masonry">
+                  <img src="{{ .image }}" alt="" class="img-responsive">
+              </div>
+          </div>
+          <div class="col col col--sm col--sm-offset-1 col--sm-align-center">
+
+
+              <h4>{{ .Name }}</h4>
+
+                  <span>{{ .description }}</span>
+
+              <div class="summary">
+                  <p>{{ .summary }}</p>
+              </div>
+              <div class="tags">
+                  {{ range .tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+              </div>
+          </div>
+        </div>
+        {{ end }}
+
+        </div>
+    </div>
+  </div>
+</div>
 
 {{ partial "footer.html" . }}

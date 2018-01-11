@@ -2,7 +2,7 @@
     {{ if and (isset .Params "image") .Params.image }}
     <div class="col col--sm col--sm-align-center">
            <div class="box-masonry">
-                
+
                   {{ if eq .Params.showonlyimage true }}
                   <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay">
                   {{ else }}
@@ -10,7 +10,7 @@
                   {{ end }}
                       <img src="{{ .Params.image }}" alt="" class="img-responsive">
                   </a>
-                
+
             </div>
     </div>
     {{ end }}
