@@ -154,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="grid">
     <div class="row">
       <div class="col col--sm col--sm-align-center">
-        <h1>Contact Me</h1>
+        <h1>Get In Touch</h1>
       </div>
     </div>
   </div>
@@ -166,13 +166,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="col col--sm">
           <p>Are you a business seeking a web presence or wanting to <strong>show up on Google</strong>?</p>
 
-<p>If you have a project that you want to get started or think you might need my help with, fill out the form below and I will try my best to respond to your email ASAP.</p>
+<p>If you have a project that you want to get started or think you might need my help, fill out the form below and I will try my best to respond to your email ASAP.</p>
 
-<form method="POST" action="https://formspree.io/jhausotter@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
-</form>
+<div class="row">
+      <div class="col col--sm-7 col--sm-offset-5 col--xs-align-center" style="padding:2.5rem 0;">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+<div class="row">
+
+<div class="col col--sm col--sm-align-top">
+    <form id="contact-form" action="//formspree.io/jhausotter@gmail.com" method="post">
+        <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value="" required>
+        <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+        <textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="/" />
+        <input type="hidden" name="_subject" value="Subject">
+
+        <input class="ghost-button-rounded-corners" type="submit" value="Send Message">
+    </form>
+</div>
+<div class="col col--sm col--sm-align-top">
+    <div class="call">
+        <h4>Prefer to Call?</h4>
+        <a class="phone-number" href="tel:541-375-0255"><i class="phone-handset"></i> (541) 375-0255</a>
+    </div>
+</div>
+</div>
 
       </div>
     </div>
