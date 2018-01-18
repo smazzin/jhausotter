@@ -43,33 +43,66 @@
 <div class="section">
   <div class="grid grid--container">
     <div class="row">
-        <div class="col col--sm">
+      <div class="col col--sm text--sm-center">
+          {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
 
-        {{ range .Site.Data.portfolio }}
-        <div class="row item">
-          <div class="col col--sm col--sm-align-center">
-             <div class="box-masonry">
-                  <img src="{{ .image }}" alt="" class="img-responsive">
-              </div>
-          </div>
-          <div class="col col col--sm col--sm-offset-1 col--sm-align-center">
+<div class="row">
+    <div class="col col--sm-7 col--sm-offset-5 col--xs-9 col--xs-offset-2 col--xs-align-center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
 
+<div class="section">
+  <div class="grid grid--container">
+    <div class="row">
+      <div class="col col--sm">
 
-              <h4>{{ .Name }}</h4>
-
-                  <span>{{ .description }}</span>
-
-              <div class="summary">
-                  <p>{{ .summary }}</p>
-              </div>
-              <div class="tags">
-                  {{ range .tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
-              </div>
-          </div>
+      {{ range .Site.Data.portfolio }}
+      <div class="row item">
+        <div class="col col--sm col--sm-align-center">
+           <div class="box-masonry">
+            <a href="{{ .Url }}" target="_blank">
+                <img src="{{ .image }}" alt="" class="img-responsive">
+            </a>
+            </div>
         </div>
-        {{ end }}
+        <div class="col col col--sm col--sm-offset-1 col--sm-align-center">
 
+
+            <h4><a href="{{ .Url }}" target="_blank">{{ .Name }}</a></h4>
+
+                <span>{{ .description }}</span>
+
+            <div class="summary">
+                <p>{{ .summary }}</p>
+            </div>
+            <div class="tags">
+                {{ range .tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+            </div>
         </div>
+      </div>
+      <div class="row">
+          <div class="col col--sm-7 col--sm-offset-5 col--xs-9 col--xs-offset-2 col--xs-align-center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+      {{ end }}
+
+      </div>
     </div>
   </div>
 </div>

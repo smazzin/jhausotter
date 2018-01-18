@@ -5,7 +5,7 @@ description: "Joshua Hausotter is a web designer & developer in Oregon. Looking 
 
 
 <div class="section homepage-header fade-in">
-  <div class="grid">
+  <div class="grid grid--container">
     <div class="row">
       <div class="col col--sm col--sm-align-center">
         <h1>Hello, I’m Joshua Hausotter</h1>
@@ -31,7 +31,7 @@ description: "Joshua Hausotter is a web designer & developer in Oregon. Looking 
       <div class="col col--sm-6">
         <h3>Need a new website?</h3>
         <p>I like to keep it simple and convey the message you want to send. I can design &amp; develop what you want.</p>
-        <a href="#" class="ghost-button-rounded-corners">View Recent Projects</a>
+        <a href="/portfolio" class="ghost-button-rounded-corners">View Recent Projects</a>
       </div>
     </div>
   </div>
