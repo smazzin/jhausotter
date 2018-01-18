@@ -1,0 +1,100 @@
+@import "flexbox-grid"
+@import "typography"
+@import "nav"
+@import "buttons"
+@import "home"
+@import "contact"
+//@import "fade"
+
+html,body
+  height: 100%
+  background: transparent
+  margin: 0
+  padding: 0
+
+// Resposive images //
+
+img
+  max-width: 100%
+  height: auto
+
+dl
+  margin-bottom: 1.5rem
+
+dt
+  font-weight: 700
+
+dd
+  margin-left: 0
+
+dd,ol,ul
+  margin-bottom: 1.5rem
+
+ol,ul
+  line-height: 1.5
+  margin-top: 1.5rem
+
+ol ol,ol ul,ul ol,ul ul
+  margin-bottom: 0
+
+header
+  background: $primary
+
+hr
+  border: 1px solid $grey
+
+.error
+  min-height: 65vh
+
+//Author styles //
+
+.byline, .reading-time
+  display: block
+  padding: 0.3rem 0
+
+.main-article
+  padding: 0 1rem
+
+article > p
+  margin-top: 1rem
+
+.section
+  padding: 3rem 0
+  h3, h4
+    color: $primary
+    margin-bottom: 1.5rem
+  h2
+    font-size: 1.5rem
+
+.summary
+  p
+    margin: 0.5rem 0
+
+.item
+  h4 a
+    color: $primary
+    text-decoration: none
+    font-size: 1.111rem
+
+.tags
+  .item-tag
+    display: inline-block;
+    height: 32px
+    font-size: 13px
+    font-weight: 500
+    color: rgba(0,0,0,.6)
+    line-height: 32px
+    padding: 0 12px
+    border-radius: 16px
+    background-color: $light-grey
+
+//Footer Styles //
+
+footer
+  background: $primary
+
+.footer
+  padding: 1rem 0
+  p, a
+    color: #fff
+    margin-top: 0
