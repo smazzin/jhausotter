@@ -8,7 +8,7 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
   cd public
   git init
 
-  git remote add deploy "travis@jhausotter.com:/var/www/html"
+  git remote add deploy "travis@jhausotter.com:/var/www/jhausotter"
   git config user.name "Travis CI"
   git config user.email "jhausotter+travis@gmail.com"
 
