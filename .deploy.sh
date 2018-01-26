@@ -10,7 +10,7 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
 
   git remote add deploy "travis@162.243.143.34:/var/www/html"
   git config user.name "Travis CI"
-  git config user.email "jhausotter@gmail.com"
+  git config user.email "jhausotter+travis@gmail.com"
 
   git add .
   git commit -m "Deploy"
