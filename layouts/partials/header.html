@@ -24,29 +24,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/themes/prism-coy.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.4/prism.min.js"></script>
+<!--   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css"> -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.min.css">
+ <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism-command-line.min.css">
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
   <link rel="canonical" href="{{ .URL | relURL }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
   <link rel="next" href="{{ .Params.next }}"> {{ end }}
 	{{ .Hugo.Generator }}
   <script type="text/javascript">
-    window.onload = function prism()
-    {
-      var pr = document.getElementsByTagName('pre');
-      // Loop the NodeList through
-      for (var i = 0; i < pr.length; i++) {
-          pr[i].className += 'language-css';
-      }
-      var co = document.getElementsByTagName('code');
-      // Loop the NodeList through
-      for (var i = 0; i < co.length; i++) {
-          co[i].className += 'language-css';
-      }
+    window.onload = function prism() {
+        var pr = document.getElementsByTagName('pre');
+        for (var i = 0; i < pr.length; i++) {
+            pr[i].className += 'language-css';
+        }
+        var co = document.getElementsByTagName('code');
+        for (var i = 0; i < co.length; i++) {
+            co[i].className += 'language-css';
+        }
     }
+</script>
 
-  </script>
   <script type="application/ld+json">
 {
   "@context" : "http://schema.org",

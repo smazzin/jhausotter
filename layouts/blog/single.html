@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col col--sm-12">
           <h1>{{ .Params.PageTitle }}</h1>
-        </div> 
+        </div>
         <div class="col col--sm-12">
         {{- $dateFormat := ( .Site.Params.settings.dateFormat | default "2006, Jan 02" ) -}}
         <span class='posted-on'>
@@ -16,11 +16,11 @@
         </span>
 
           {{- with .Params.authors -}}
- 
+
           {{- $lang := ( $.Params.lang | default $.Lang ) -}}
 
           <span class='byline'>
-            
+
             <span class='screen-reader'> {{ i18n "by" }} </span>
 
             {{- range $i, $authorID := . -}}
@@ -28,9 +28,9 @@
               {{- $i18nAuthor := ( index $author $lang ) -}}
               {{- $name := ( or $i18nAuthor.name $author.name ) -}}
               {{- if gt $i 0 }}, {{ end -}}
-              
+
                 {{- $name.display -}}
-              
+
             {{- end -}}
           </span>
 
@@ -57,5 +57,15 @@
     </div>
   </div>
 </article>
+<section class="section comments">
+  <div class="grid grid--container">
+    <div class="row">
+      <div class="col col--sm">
+        {{ partial "disqus.html" . }}
+      </div>
+    </div>
+  </div>
+
+</section>
 
 {{ partial "footer.html" . }}

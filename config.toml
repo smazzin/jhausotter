@@ -14,6 +14,8 @@ enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsUseClassic = false
 
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
@@ -49,6 +51,8 @@ listDateFormat = "Jan 02, 2006"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
+
+disqusShortname = "jhausotter"
 
 [params.opengraph.twitter]
 page = "staywyld" # Twitter page username
