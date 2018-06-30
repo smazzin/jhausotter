@@ -22,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" />
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.min.css" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.min.css">
  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism-command-line.min.css">
@@ -126,7 +126,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGCRXBX"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{{ if not .IsHome  }}
 <div id="nav-background">
+  {{ else }}
+  <div id="nav-background" class="home">
+  {{ end }}
   <div id="nav-container">
     <header id="nav-header">
       <span>
@@ -137,7 +141,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav>
       <ul class="nav-ul hide-ul">
 				{{ range .Site.Menus.main }}
-				<li><a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+				<li>
+          <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+        </li>
 				{{ end }}
       </ul>
     </nav>

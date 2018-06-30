@@ -1,4 +1,4 @@
-.homepage-header, .header
+.homepage-header
   display:-webkit-box
   display:-webkit-flex
   display:-ms-flexbox
@@ -12,35 +12,82 @@
   -webkit-justify-content: center
   -ms-flex-pack: center
   justify-content: center
-  background-color: $grey
-  color: $dark-grey
-  //margin-top: 2.7rem
-  padding: 3rem 0
+  color: $white
+  padding: 6rem 0
+  @media screen and (max-width: 544px)
+    padding: 3rem 0
   font-size: 1rem
-  //height: 12rem
-  text-align: center
   h1
-    font-size: 1.8rem
+    font-size: 1.6rem
+    color: $white
+  p
+    color: $white
 
-@media screen and (max-width: 700px)
+.services
+  margin-top: -3rem
+
+@media screen and (max-width: 768px)
   .homepage-header, .header
     h1
       line-height: 1.9rem
       font-size: 1.4rem
       padding: 1rem 0
 
-.dot
-  height: 6px
-  width: 6px
-  background-color: $light-grey
-  border-radius: 50%
-  display: inline-block
-  margin: auto 0.5rem
+.box
+  padding: 0.5rem
 
-.dot-horizontal
-  height: 6px
-  width: 6px
-  background-color: $light-grey
-  border-radius: 50%
-  display: block
-  margin: 0.5rem auto
+@-webkit-keyframes fadeIn
+  from
+    opacity: 0
+    opacity: 1\9
+    // IE9 only
+
+  to
+    opacity: 1
+
+
+@-moz-keyframes fadeIn
+  from
+    opacity: 0
+    opacity: 1\9
+    // IE9 only
+
+  to
+    opacity: 1
+
+
+@keyframes fadeIn
+  from
+    opacity: 0
+    opacity: 1\9
+    // IE9 only
+
+  to
+    opacity: 1
+
+.fade-in
+  opacity: 0
+  // make things invisible upon start
+  -webkit-animation: fadeIn ease-in 1
+  // call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time
+  -moz-animation: fadeIn ease-in 1
+  animation: fadeIn ease-in 1
+  -webkit-animation-fill-mode: forwards
+  // this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)
+  -moz-animation-fill-mode: forwards
+  animation-fill-mode: forwards
+  -webkit-animation-duration: 1s
+  -moz-animation-duration: 1s
+  animation-duration: 1s
+  &.one
+    -webkit-animation-delay: 0.7s
+    -moz-animation-delay: 0.7s
+    animation-delay: 0.7s
+  &.two
+    -webkit-animation-delay: 1.2s
+    -moz-animation-delay: 1.2s
+    animation-delay: 1.2s
+  &.three
+    -webkit-animation-delay: 1.6s
+    -moz-animation-delay: 1.6s
+    animation-delay: 1.6s

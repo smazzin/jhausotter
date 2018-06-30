@@ -4,11 +4,19 @@
 
 /* NAVIGATION */
 #nav-background {
-  position: fixed;
-  top: 0;
-  z-index: 9000;
-  width: 100%;
-  background-color: $primary;
+  // position: fixed;
+  // top: 0;
+  // z-index: 500;
+  // width: 100%;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  right: 0;
+  z-index: 500;
+  /* height: 50px; */
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+
 }
 
 #nav-container {
@@ -16,8 +24,10 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1000px;
+  max-width: 1280px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -43,12 +53,15 @@
 }
 
 #nav-logo {
-  color: #fff;
+  color: $dark-grey;
   text-decoration: none;
 }
-#nav-logo:hover {
+.home > #nav-container > #nav-header > span > #nav-logo {
   color: #fff;
 }
+// #nav-logo:hover {
+//   color: #fff;
+// }
 
 .nav-ul {
   display: -webkit-box;
@@ -71,6 +84,18 @@
 }
 
 .nav-link {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: $dark-grey;
+  text-decoration: none;
+  font-size: 0.9rem;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.home > #nav-container > nav > ul > li > .nav-link {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
