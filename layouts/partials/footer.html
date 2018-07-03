@@ -30,6 +30,12 @@
       </div>
     </div>
 	</footer>
+    <script type="text/javascript">
+    $('.menu-toggle').click(function() {
+     $('.site-nav').toggleClass('site-nav--open', 500);
+      $(this).toggleClass('open');
+    });
+  </script>
 </body>
 <script src="{{ .Site.BaseURL }}js/script.js"></script>
 

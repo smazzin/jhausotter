@@ -31,6 +31,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
   <link rel="next" href="{{ .Params.next }}"> {{ end }}
 	{{ .Hugo.Generator }}
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
   <script type="text/javascript">
     window.onload = function prism() {
         var pr = document.getElementsByTagName('pre');
@@ -126,26 +129,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGCRXBX"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-{{ if not .IsHome  }}
 <div id="nav-background">
-  {{ else }}
-  <div id="nav-background" class="home">
-  {{ end }}
-  <div id="nav-container">
-    <header id="nav-header">
-      <span>
-      	<a href="{{ .Site.BaseURL }}" id="nav-logo">{{ .Site.Title }}</a>
-      </span>
-      <div id="nav-menu-button">MENU</div>
-    </header>
-    <nav>
-      <ul class="nav-ul hide-ul">
-				{{ range .Site.Menus.main }}
-				<li>
-          <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+<header>
+  {{ if not .IsHome  }}
+  <div class="nav-container">
+    {{ else }}
+  <div class="nav-container home">
+    {{ end }}
+    <a class="logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    <nav class="site-nav">
+        <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL | relURL }}"><i class="site-nav--icon"></i>{{ .Name }}</a>
         </li>
-				{{ end }}
-      </ul>
+        {{ end }}
+        </ul>
     </nav>
+    <div class="menu-toggle">
+      {{ if not .IsHome }}
+      <div class="hamburger"></div>
+      {{ else }}
+      <div class="hamburger-white"></div>
+      {{ end }}
+    </div>
   </div>
+</header>
 </div>
