@@ -1,1 +1,1 @@
-$(".menu-toggle").click(function(){$(".site-nav").toggleClass("site-nav--open",500),$(this).toggleClass("open")});
+!function(){function e(){t[0].style.transition="max-height 0.5s",t[0].classList.toggle("hide-ul")}var n=document.getElementById("nav-menu-button"),t=document.getElementsByClassName("nav-ul");navHeader=document.getElementsByClassName("bg-none"),n.onclick=e}();
