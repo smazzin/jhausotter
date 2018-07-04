@@ -1,11 +1,11 @@
 	<article>
-		<h2><a href="{{ .Permalink }}">{{ .Params.PageTitle }}</a></h2>
+		<h4><a href="{{ .Permalink }}">{{ .Params.PageTitle }}</a></h4>
 		<time>Posted on {{ dateFormat "Jan 2, 2006" "2015-01-21" }}</time>
 		{{ range .Params.tags }}
 		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 		{{ end }}
 		<div>
-			{{ .Summary }}
+			<p>{{ .Description }}</p>
 			{{ if .Truncated }}
 				<a href="{{ .Permalink }}">Read more...</a>
 			{{ end }}

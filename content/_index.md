@@ -1,6 +1,6 @@
 ---
-title: "Joshua Hausotter | Website Design | Southern Oregon"
-description: "Joshua Hausotter is a web designer & developer in Oregon. Looking for a website redesign, or wanting to make your website mobile friendly? Contact me today."
+title: "JHausotter Design - Digital Marketing, Website Design, SEO, eCommerce"
+description: "We work with clients of all sizes. From website re-designs to increasing your business' online presence, we have digital marketing services and solutions to help you accomplish your goals."
 ---
 <div class="main">
   <header>

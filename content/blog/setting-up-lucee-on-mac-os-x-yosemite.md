@@ -1,6 +1,7 @@
 ---
 date: 2015-06-16T06:11:26+00:00
 title: "Setting Up Lucee on Mac Os X Yosemite"
+description: "Getting Lucee on mac os x yosemite running apache HTTP (with virtual hosts) and tomcat 8 locally steps"
 authors: ["jhausotter"]
 tags: []
 pagetitle: Setting up Lucee on Mac OS X Yosemite

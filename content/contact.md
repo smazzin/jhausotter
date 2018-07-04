@@ -1,13 +1,13 @@
 ---
-title: "Contact Joshua Hausotter - 541-375-0255 | Professional web design and development in Oregon"
-description: "Looking for professional web design and development for your businesses? Contact Joshua Hausotter today."
+title: "Contact JHausotter Design - 541-375-0255"
+description: "Looking for a digiltal marketer? We do Web design, SEO, and more for your businesses or local business. Located in Roseburg, OR."
 pagetitle: "Get In Touch"
 layout: single
 ---
 
-Are you a business seeking a web presence or wanting to **show up on Google**?
+Are you a business or local business wanting to increase your online web presence or wanting to **show up on Google**?
 
-If you have a project that you want to get started or think you might need my help, fill out the form below and I will try my best to respond to your email ASAP.
+Fill out the form below and I will try my best to respond to your email ASAP.
 
 <div class="row">
 	  <div class="col col--sm-7 col--sm-offset-5 col--xs-align-center" style="padding:2.5rem 0;">

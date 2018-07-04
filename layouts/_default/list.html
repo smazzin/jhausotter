@@ -8,11 +8,10 @@
     </div>
   </div>
 </div>
-
 <div class="section">
   <div class="grid grid--container">
     <div class="row">
-        <div class="col col--sm">
+        <div class="col col--sm-9 col--sm-offset-1">
           {{ range (.Paginator 5).Pages }} {{ partial "summary" . }} <hr> {{ end }}
 
           {{ partial "paginator" . }}
