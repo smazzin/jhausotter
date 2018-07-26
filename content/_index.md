@@ -2,6 +2,7 @@
 title: "JHausotter Design - Digital Marketing, Website Design, SEO, eCommerce"
 description: "We work with clients of all sizes. From website re-designs to increasing your business' online presence, we have digital marketing services and solutions to help you accomplish your goals."
 ---
+
 <div class="main">
   <header>
 <div id="figma">
