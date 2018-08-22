@@ -113,7 +113,7 @@ description: "We work with clients of all sizes. From website re-designs to incr
             <svg width="43" height="43" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 77.4648C0 78.6733 0.478419 79.8324 1.33001 80.6869C2.1816 81.5415 3.33661 82.0215 4.54094 82.0215H77.196C78.4004 82.0215 79.5554 81.5415 80.407 80.6869C81.2586 79.8324 81.737 78.6733 81.737 77.4648V4.55675C81.737 3.34823 81.2586 2.1892 80.407 1.33464C79.5554 0.480085 78.4004 0 77.196 0H4.54094C3.33661 0 2.1816 0.480085 1.33001 1.33464C0.478419 2.1892 0 3.34823 0 4.55675V77.4648ZM9.08189 31.8973H49.9504V72.908H9.08189V31.8973ZM59.0323 72.908V31.8973H72.6551V72.908H59.0323ZM72.6551 9.11351V22.7838H9.08189V9.11351H72.6551Z" fill="black"/>
 </svg>
-        <h3>Web Design</h3>
+        <h2>Web Design</h2>
         <p class="text--xs-left">We build & design beautiful websites that work for you. We want to produce the best experience tailored to your audience.</p>
       </div>
         </div>
@@ -123,7 +123,7 @@ description: "We work with clients of all sizes. From website re-designs to incr
 <path d="M82 77.4444V4.55556C82 3.34735 81.52 2.18862 80.6657 1.33429C79.8114 0.479959 78.6526 0 77.4444 0H4.55556C3.34735 0 2.18862 0.479959 1.33429 1.33429C0.479959 2.18862 0 3.34735 0 4.55556V77.4444C0 78.6526 0.479959 79.8114 1.33429 80.6657C2.18862 81.52 3.34735 82 4.55556 82H77.4444C78.6526 82 79.8114 81.52 80.6657 80.6657C81.52 79.8114 82 78.6526 82 77.4444ZM72.8889 72.8889H9.11111V9.11111H72.8889V72.8889Z" fill="black"/>
 <path d="M19.3064 21.9714L33.7567 29.1966C34.7834 29.7102 35.9662 29.8172 37.0685 29.4963C38.1708 29.1753 39.1112 28.45 39.7017 27.4654L53.3683 4.68767L45.5556 2.78049e-07L34.0619 19.1607L19.6117 11.9356C18.5845 11.4241 17.4025 11.3182 16.3008 11.639C15.1991 11.9598 14.2586 12.6837 13.6667 13.6667L5.73476e-07 36.4444L7.81278 41.1321L19.3064 21.9714Z" transform="translate(14.3185 20.4362)" fill="black"/>
 </svg>
-        <h3>SEO</h3>
+        <h2>SEO</h2>
         <p class="text--xs-left">From keyword analysis to website traffic analysis, search engine optimzation is a long-term investment that will help you stay ahead of your competitors.</p>
       </div>
       </div>
@@ -134,7 +134,7 @@ description: "We work with clients of all sizes. From website re-designs to incr
 <path d="M6.2251 12.6316C9.66313 12.6316 12.4502 9.8039 12.4502 6.31579C12.4502 2.82768 9.66313 0 6.2251 0C2.78707 0 0 2.82768 0 6.31579C0 9.8039 2.78707 12.6316 6.2251 12.6316Z" transform="translate(29.0504 67.3684)" fill="black"/>
 <path d="M6.2251 12.6316C9.66313 12.6316 12.4502 9.8039 12.4502 6.31579C12.4502 2.82768 9.66313 0 6.2251 0C2.78707 0 0 2.82768 0 6.31579C0 9.8039 2.78707 12.6316 6.2251 12.6316Z" transform="translate(53.6935 67.3684)" fill="black"/>
 </svg>
-      <h3>eCommerce</h3>
+      <h2>eCommerce</h2>
       <p class="text--xs-left">We can build custom solutions that fit your business needs and make it easy for your customers to buy your products online.</p>
     </div>
     </div>

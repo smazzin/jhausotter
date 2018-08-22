@@ -5,7 +5,7 @@ pagetitle: "Get In Touch"
 layout: single
 ---
 
-Are you a business or local business wanting to increase your online web presence or wanting to **show up on Google**?
+## Are you a business or local business wanting to increase your online web presence or wanting to show up on Google?
 
 Fill out the form below and I will try my best to respond to your email ASAP.
 

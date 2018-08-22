@@ -1,7 +1,7 @@
 ---
 title: "About Us | Digital Marketing for Businesses + Local Businesses"
-description: "We provide web design + development, digital marketing, SEO, and more for businesses and local businesses in Roseburg, Oregon and beyond."
-pagetitle: "About JHausotter Design"
+description: "We provide web design, web development, digital marketing, SEO, and more for businesses and local businesses in Roseburg, Oregon and beyond."
+pagetitle: "About JHausotter Design <br> Roseburg, OR"
 weight: 1
 layout: single
 ---
