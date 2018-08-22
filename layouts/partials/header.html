@@ -46,46 +46,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 
-  <script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Person",
-  "name" : "Joshua Hausotter",
-  "image": "/img/josh-avatar.jpg",
-  "url" : "https://www.jhausotter.com",
-  "sameAs" : [
-    "https://twitter.com/staywyld",
-    "http://instagram.com/jhausotter/",
-    "https://plus.google.com/u/0/100315376894555391355",
-    "https://www.flickr.com/photos/joshuaj/"
-  ]
-}
-</script>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
-  "@type": "Service",
-  "serviceType": "Professional Web Design, Web Development, SEO, and Google Marketing",
-  "provider": {
-    "@type": "LocalBusiness",
-    "@id": "https://www.jhausotter.com",
-    "name": "JHausotter Design",
-    "telephone": "541-375-0255",
-          "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 08:00-21:00",
-    "email": "jhausotter@gmail.com",
-    "image": "https://www.jhausotter.com/img/josh-avatar.jpg",
-    "priceRange" : "$100 - $10000",
+  "@type": ["LocalBusiness","Service"],
+  "name": "JHausotter Design",
+  "image": "https://www.jhausotter.com/img/josh-avatar.jpg",
+  "url": "https://www.jhausotter.com",
+  "email": "josh@jhausotter.com",
+  "telephone": "541-375-0255",
+  "openingHours": "Mo-Su 00:00-23:59:59",
+  "serviceType": "Web Design, Web Development, SEO, and Google Marketing",
+  "areaServed": "United States",
+    "sameAs": [
+      "https://www.facebook.com/jhausotterdesign",
+      "https://www.instagram.com/jhausotterdesign/"
+    ],
+    "priceRange" : "$$$",
     "address" : {
       "@type" : "PostalAddress",
       "streetAddress" : "",
       "addressLocality" : "Roseburg",
       "addressRegion" : "OR",
       "postalCode" : "97471"
-    }
   },
+   "provider": {
+    "@type": "Person",
+    "name" : "Joshua Hausotter",
+    "image": "/img/josh-avatar.jpg",
+    "url" : "https://www.jhausotter.com",
+    "sameAs" : [
+      "https://twitter.com/staywyld",
+      "https://www.facebook.com/jhausotterdesign",
+      "https://www.instagram.com/jhausotterdesign/",
+      "https://plus.google.com/u/0/100315376894555391355",
+      "https://www.flickr.com/photos/joshuaj/"
+    ]
+      },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Web services",
+    "name": "Services",
     "itemListElement": [
       {
         "@type": "OfferCatalog",
@@ -124,6 +124,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+
+
+{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}} 
+{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}} 
+
+{{- $.Scratch.Add "path" ( "/" | absLangURL ) -}} 
+{{- $.Scratch.Add "breadcrumb" (slice (dict "url" ( "/" | absLangURL ) "name" "home" "position" 1 )) -}} 
+{{- range $index, $element := split $url "/" -}} 
+  {{- $.Scratch.Add "path" $element -}} 
+  {{- $.Scratch.Add "path" "/" -}} 
+    {{- if ne $element "" -}} {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}} 
+  {{- end -}} 
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {{ range $.Scratch.Get "breadcrumb" }}
+    {{ if ne .position 1 }},
+  {{ end }}
+  {
+        "@type": "ListItem",
+        "position": {{ .position }},
+        "item": {
+          "@id": "{{ .url }}",
+          "name": "{{ .name }}"
+        }
+    }{{ end }}]
+}
+</script>
+
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGCRXBX"
