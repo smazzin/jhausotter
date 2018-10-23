@@ -18,7 +18,7 @@ description: "From web design, SEO, to increasing your business' online presence
     <div class="row">
       <div class="col col--lg-8 col--sm-12">
         <h1>We design experiences that work for you</h1>
-        <p>JHausotter Design works with clients of all different sizes. Whether you are needing a new website or wanting to increase your business’ online presence, we have digital marketing services and solutions that will help you accomplish your goals.</p>
+        <p>JHausotter Design works with clients of all different sizes in <strong>Roseburg, OR</strong> and beyond. Whether you are needing a new website or wanting to increase your business’ online presence, we have digital marketing services and solutions that will help you accomplish your goals.</p>
         <ul class="list-unstyled">
           <li>
             <a class="button-rounded-corners-white" href="/contact">Contact Us</a>
