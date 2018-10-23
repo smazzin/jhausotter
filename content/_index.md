@@ -1,5 +1,5 @@
 ---
-title: "JHausotter Design  - Digital Marketing, Website Design, SEO, eCommerce"
+title: "JHausotter Design - Roseburg OR Web Design, SEO, eCommerce"
 description: "From web design, SEO, to increasing your business' online presence, we have digital marketing services to help you accomplish your goals. Serving Roseburg, OR and beyond."
 ---
 
