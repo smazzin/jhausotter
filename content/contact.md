@@ -1,5 +1,5 @@
 ---
-title: "Contact JHausotter Design - 541-375-0255"
+title: "Contact JHausotter Design - 541-391-1038"
 description: "Looking for a digiltal marketer? We do Web design, SEO, and more for your businesses or local business. Located in Roseburg, OR."
 pagetitle: "Get In Touch"
 layout: single
