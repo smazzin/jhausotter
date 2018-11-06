@@ -9,7 +9,7 @@ before_install:
 - chmod 600 travis_rsa
 - mv travis_rsa ~/.ssh/id_rsa
 install:
-- ./install-hugo-from-gh.sh
+- ./install-hugo.sh
 script:
 - hugo -d public --disableKinds=taxonomy,taxonomyTerm
 after_success:
