@@ -8,7 +8,7 @@ pagetitle: How to Deploy Hugo Site to DigitalOcean With Git Hooks
 image: ""
 showonlyimage: "false"
 ---
-
+ 
 
 ## Deploying a Hugo Site to DigitalOcean with Git Hooks
 The following steps will show you how to deploy a Hugo site from your local server (e.g. Development, localhost, etc) to DigitalOcean with a Git Hook.
