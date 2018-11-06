@@ -1,6 +1,6 @@
 language: go
 go:
-- 1.9.2
+- 1.11.2
 addons:
   ssh_known_hosts: jhausotter.com
 before_install:
