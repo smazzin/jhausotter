@@ -9,7 +9,7 @@ before_install:
 - chmod 600 travis_rsa
 - mv travis_rsa ~/.ssh/id_rsa
 install:
-- go get -d github.com/gohugoio/hugo
+- go get -v github.com/gohugoio/hugo
 script:
 - hugo -d public --disableKinds=taxonomy,taxonomyTerm
 after_success:
