@@ -30,7 +30,7 @@ hugo version
 ```
 
 4. Create new directory for our git repo. <br>
-The following will be done on your remote server (Production).
+	The following will be done on your remote server (Production).
 	```bash
 	mkdir -p /home/git/projectname.git
 	cd /home/git/projectname.git
@@ -71,7 +71,7 @@ nano hooks/post-receive
 	cp -r $GIT_WORK_TREE/public /var/www/public
 
 	echo "All done! 0 problems"
-```
+	```
 
 7. Make Our post-receive Hook Executable
 ```bash
@@ -83,7 +83,7 @@ chmod +x hooks/post-receive
 ```bash
 git remote add production ssh://username@yoursite.com/home/projectname/git/projectname.git
 ```
- **Note** you can use whatever you want in place of ```production``` (```staging```, etc).
+	**Note** you can use whatever you want in place of ```production``` (```staging```, etc).
 
 9. Now we can make some changes with, ```git commit``` and ```git push```.
 
