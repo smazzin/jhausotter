@@ -14,17 +14,18 @@ The following steps will show you how to deploy a Hugo site from your local serv
 <!--more-->
 
 1. Login to your remote server from the command line.
-	```bash
-	ssh username@your-ip-address
-	```
+```bash
+ssh username@your-ip-address
+```
 
-2. We're going to install Hugo. <br>The Easiest way is to use snapd:
-```bash
-sudo apt install snapd
-```
-```bash
-sudo snap install hugo
-```
+2. We're going to install Hugo. <br>
+    The Easiest way is to use snapd:
+	```bash
+	sudo apt install snapd
+	```
+	```bash
+	sudo snap install hugo
+	```
 
 3. Once Hugo installs, check Hugo version:
 ```bash
