@@ -18,14 +18,11 @@ The following steps will show you how to deploy a Hugo site from your local serv
 ssh username@your-ip-address
 ```
 
-2. We're going to install Hugo. <br>
-    The Easiest way is to use snapd:
-	```bash
-	sudo apt install snapd
-	```
-	```bash
-	sudo snap install hugo
-	```
+2. We're going to install Hugo. <br>The Easiest way is to use snapd:
+```bash
+sudo apt install snapd
+sudo snap install hugo
+```
 
 3. Once Hugo installs, check Hugo version:
 ```bash
@@ -33,7 +30,7 @@ hugo version
 ```
 
 4. Create new directory for our git repo. <br>
-	The following will be done on your remote server (Production).
+The following will be done on your remote server (Production).
 	```bash
 	mkdir -p /home/git/projectname.git
 	cd /home/git/projectname.git
@@ -86,7 +83,7 @@ chmod +x hooks/post-receive
 ```bash
 git remote add production ssh://username@yoursite.com/home/projectname/git/projectname.git
 ```
-**Note** you can use whatever you want in place of ```production``` (```staging```, etc).
+ **Note** you can use whatever you want in place of ```production``` (```staging```, etc).
 
 9. Now we can make some changes with, ```git commit``` and ```git push```.
 
