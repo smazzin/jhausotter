@@ -19,10 +19,10 @@ The following steps will show you how to deploy a Hugo site from your local serv
 	```
 
 2. We're going to install Hugo. <br>The Easiest way is to use snapd:
-```bash
-sudo apt install snapd
-sudo snap install hugo
-```
+	```bash
+	sudo apt install snapd
+	sudo snap install hugo
+	```
 
 3. Once Hugo installs, check Hugo version:
 ```bash
