@@ -23,19 +23,20 @@ The following steps will show you how to deploy a Hugo site from your local serv
 	sudo apt install snapd
 	sudo snap install hugo
 	```
-
+<!--2-->
 3. Once Hugo installs, check Hugo version:
 	```
 	hugo version
 	```
-
-4. Create new directory for our git repo. <br>The following will be done on your remote server (Production).
+<!--3-->
+4. Make new directory for our git repo. <br>The following will be done on your remote server (Production).
 	```bash
 	mkdir -p /home/git/projectname.git
 	cd /home/git/projectname.git
 	```
 
 5. Create bare/empty Repo Inside Our Directory
+
 	```bash
 	git init --bare
 	```
@@ -44,7 +45,7 @@ The following steps will show you how to deploy a Hugo site from your local serv
 	```bash
 	nano hooks/post-receive
 	```
-And lets copy and paste the following inside our ```post-recieve```
+	And lets copy and paste the following inside our ```post-recieve```
 
 	```bash
 	#!/bin/bash
