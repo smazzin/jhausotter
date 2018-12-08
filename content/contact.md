@@ -22,7 +22,7 @@ Fill out the form below and I will try my best to respond to your email ASAP.
 <div class="row">
 
 <div class="col col--sm col--sm-align-top">
-	<form id="contact-form" action="//formspree.io/josh@jhausotter.com" method="post">
+	<form id="contact-form" action="//formspree.io/jhausotter@gmail.com" method="post">
 		<input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value="" required>
 		<input placeholder="Email address" type="email" name="_replyto" onblur="this.setAttribute('value', this.value);" value="" required>
 		<textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>

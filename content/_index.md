@@ -166,7 +166,7 @@ description: "From web design, SEO, to increasing your business' online presence
         <a class="button-rounded-corners-green" href="/contact">Contact Us</a>
       </div>
       <div class="col col--sm-12 text--xs-center">
-        <p>Or give us a call <a class="phone-number-alt" title="Ready to start a project?" href="tel:541-375-0255">(541) 375-0255</a> <br> we're happy to answer your questions</p>
+        <p>Or give us a call <a class="phone-number-alt" title="Ready to start a project?" href="tel:541-391-1038">(541) 391-1038</a> <br> we're happy to answer your questions</p>
       </div>
     </div>
   </div>
