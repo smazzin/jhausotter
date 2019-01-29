@@ -21,11 +21,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<meta property="og:description" content="{{ .Description }}">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" />
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.min.css">
- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism-command-line.min.css">
+
+    <!-- normalize -->
+    {{ $normalize := (dict "targetPath" "css/normalize.css" "outputStyle" "nested" "enableSourceMap" true) }}
+    {{ $normalizeStyle := resources.Get "sass/normalize.scss" | toCSS $normalize | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $normalizeStyle.RelPermalink }}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+    <!-- style -->
+    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "nested" "enableSourceMap" true) }}
+    {{ $style := resources.Get "sass/style.sass" | toCSS $options | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <!-- prism -->
+    {{ $prismOptions := (dict "targetPath" "css/prism.css" "outputStyle" "nested" "enableSourceMap" true) }}
+    {{ $prism := resources.Get "sass/prism.scss" | toCSS $prismOptions | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $prism.RelPermalink }}">
+    <!-- prism cli -->
+    {{ $prismCliOptions := (dict "targetPath" "css/prism-command-line.css" "nested" "compact" "enableSourceMap" true) }}
+    {{ $prismCli := resources.Get "sass/prism-command-line.scss" | toCSS $prismCliOptions | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $prismCli.RelPermalink }}">
+
+
+
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
   <link rel="canonical" href="{{ .URL | relURL }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
