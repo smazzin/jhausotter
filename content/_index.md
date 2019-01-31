@@ -151,7 +151,7 @@ description: "From web design, SEO, to increasing your business' online presence
         <img src="/img/maxwell-cleaning-services.png">
       </div>
       <div class="col col--sm-4 col--sm-offset-1">
-        <img src="/img/saunte-wellness-center.png">
+        <img src="/img/elevateheating.png">
       </div>
     </div>
   </div>
