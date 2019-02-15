@@ -148,10 +148,10 @@ description: "From web design, SEO, to increasing your business' online presence
         <h3>Some Recent Work</h3>
       </div>
       <div class="col col--sm-4 col--sm-offset-1">
-        <img src="/img/maxwell-cleaning-services.png">
+        <img alt="Duncan MC Construction, LLC" src="/img/dmc-construction.png">
       </div>
       <div class="col col--sm-4 col--sm-offset-1">
-        <img src="/img/elevateheating.png">
+        <img alt="Elevate Heating & Cooling, LLC" src="/img/elevateheating.png">
       </div>
     </div>
   </div>
