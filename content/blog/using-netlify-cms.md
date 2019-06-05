@@ -12,28 +12,10 @@ Below is what part of my config.yml looks like;
 
 ```
     fields: # The fields each document in this collection have
-```
-
-```
       - {label: "Title", name: "title", widget: "string"}
-```
-
-```
       - {label: "Publish Date", name: "date", widget: "datetime"}
-```
-
-```
       - {label: "Meta Description", name: "description", widget: "text"}
-```
-
-```
       - {label: "Page Title", name: "pagetitle", widget: "text"}
-```
-
-```
       - {label: "Image", name: "image", widget: "image", required: false}
-```
-
-```
       - {label: "Body", name: "body", widget: "markdown"}
 ```
