@@ -20,8 +20,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="description" content="{{ .Description }}">
 	<meta property="og:description" content="{{ .Description }}">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-  <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" />
-
+  <!-- <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" /> -->
+  <meta name="google-site-verification" content="Em7dNCUhuM-z_bP_RUsQxJHVCMRowrl-7QXPmUJQUPw" />
     <!-- normalize -->
     {{ $normalize := (dict "targetPath" "css/normalize.css" "outputStyle" "nested" "enableSourceMap" true) }}
     {{ $normalizeStyle := resources.Get "sass/normalize.scss" | toCSS $normalize | resources.PostCSS }}
