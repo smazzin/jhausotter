@@ -1,7 +1,7 @@
 ---
-title: "Blog | Joshua Hausotter | Roseburg, Oregon"
+title: "Digital Cloud Blog | Roseburg, Oregon"
 description: "Interesting finds around the web about web development and design."
-pagetitle: "Joshua Hausotter Blog"
+pagetitle: "Digital Cloud Blog"
 type: blog
 ---
 

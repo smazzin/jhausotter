@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+<div class="section header">
+  <div class="grid grid--container">
+    <div class="row">
+      <div class="col col--sm col--sm-align-center text--xs-center">
+        <h1>{{ with .Params.PageTitle }}{{ . | safeHTML }}{{ end }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="grid grid--container">
+    <div class="row">
+     
+          {{ .Content }}
+      
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" . }}

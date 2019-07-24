@@ -1,5 +1,5 @@
-baseURL = "https://www.jhausotter.com/"
-title = "JHausotter Design"
+baseURL = "https://www.digitalcloudnw.com/"
+title = "Digital Cloud"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -40,7 +40,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "JHausotter Design"
+holder = "Digital Cloud"
 startYear = "2015"
 suffix = ""
 

@@ -1,12 +1,12 @@
 ---
 title: "About Us | Digital Marketing for Businesses + Local Businesses in Roseburg, Oregon and beyond."
 description: "We provide web design, web development, digital marketing, SEO, and more for businesses and local businesses in Roseburg, Oregon and beyond."
-pagetitle: "About JHausotter Design <br> Roseburg, OR"
+pagetitle: "About Digital Cloud <br> Roseburg, OR"
 weight: 1
 layout: single
 ---
 
-## JHausotter Design specializes in Web design + development, SEO, eCommerce and more.
+## Digital Cloud specializes in Web design + development, SEO, eCommerce and more.
 
 You want an experienced professional you can trust. Businesses and local businesses in Roseburg, OR and beyond often struggle to find ways to get new customers or clients. **We take the time to get to know your business and can provide custom digital marketing services that will help you get results**.
 
