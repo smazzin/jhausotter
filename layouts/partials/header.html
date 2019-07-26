@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
+	<meta name="msvalidate.01" content="25CBA6C934966055F4C6CA2A583BDEC7" />
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -21,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<meta property="og:description" content="{{ .Description }}">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   <!-- <meta name="google-site-verification" content="Ly4dUtMtm8EXavWVhMDlscJEhv2bAWZIjvvTX3vhD7k" /> -->
-  <meta name="msvalidate.01" content="25CBA6C934966055F4C6CA2A583BDEC7" />
+  
   <meta name="google-site-verification" content="Em7dNCUhuM-z_bP_RUsQxJHVCMRowrl-7QXPmUJQUPw" />
     <!-- normalize -->
     {{ $normalize := (dict "targetPath" "css/normalize.css" "outputStyle" "nested" "enableSourceMap" true) }}
