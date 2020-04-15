@@ -18,7 +18,7 @@
   "homepage": "https://github.com/smazzin/jhausotter#readme",
   "devDependencies": {},
   "dependencies": {
-    "autoprefixer": "^9.4.6",
-    "postcss-cli": "^6.1.1"
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3"
   }
 }

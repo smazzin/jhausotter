@@ -1355,9 +1355,11 @@ input {
   height: 100%;
   overflow: hidden;
   -webkit-transform: skewY(-10deg);
-  transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+      transform: skewY(-10deg);
   -webkit-transform-origin: 0;
-  transform-origin: 0;
+  -ms-transform-origin: 0;
+      transform-origin: 0;
   background: linear-gradient(150deg, #1078FF 15%, #25B0FF 70%, #25B0FF 94%); }
 
 #figma span {
@@ -1440,7 +1442,8 @@ input {
   height: 100%;
   top: 0;
   -webkit-transform: skewY(-10deg);
-  transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+      transform: skewY(-10deg);
   background: #f6f9fc; }
 
 #call-to-action {
@@ -1455,7 +1458,8 @@ input {
   height: 130%;
   top: 0;
   -webkit-transform: skewY(-10deg);
-  transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+      transform: skewY(-10deg);
   background: #f6f9fc; }
 
 .mockups {

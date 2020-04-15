@@ -20,32 +20,8 @@
         </p>
         </div>
         <div class="col col--sm text--sm-right">
-          <!--
-          {{ partial "nav/menus/social.html" .}}
-          -->
           <a class="ghost-button-rounded-corners-white" href="/contact">Contact</a>
-
         </div>
-
       </div>
     </div>
   </footer>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
-</body>
-<script src="{{ .Site.BaseURL }}js/script.js"></script>
-
-<script src="{{ .Site.BaseURL }}js/prism.js"></script>
-
-<script src="{{ .Site.BaseURL }}js/prism-command-line.js"></script>
-
-</html>

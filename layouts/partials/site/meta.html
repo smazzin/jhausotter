@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="msvalidate.01" content="25CBA6C934966055F4C6CA2A583BDEC7" />
+<!-- noindex meta -->
+{{ $default_noindex_kinds := slice "section" "taxonomy" "taxonomyTerm" }}
+{{ $noindex_kinds := .Site.Params.noindex_kinds | default $default_noindex_kinds }}
+{{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
+{{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
+<meta name="robots" content="noindex">
+{{ end }}
+<title>{{ .Title }}</title>
+<meta name="description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description }}">
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+<meta name="google-site-verification" content="Em7dNCUhuM-z_bP_RUsQxJHVCMRowrl-7QXPmUJQUPw" />

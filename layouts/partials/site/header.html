@@ -1,0 +1,29 @@
+{{ if not .IsHome  }}
+<div id="nav-background">
+  {{ else }}
+  <div id="nav-background" class="home">
+    {{ end }}
+    <div id="nav-container">
+      <header class="bg-none" id="nav-header">
+        <span>
+          <a href="{{ .Site.BaseURL }}" id="nav-logo">
+            <img width="300" src="/img/digitalcloud-logo.png" alt="{{ .Site.Title }}">
+          </a>
+        </span>
+        <div id="nav-menu-button">MENU</div>
+      </header>
+      <nav>
+        {{ if not .IsHome  }}
+        <ul class="nav-ul hide-ul">
+          {{ else }}
+          <ul class="nav-home nav-ul hide-ul">
+            {{ end }}
+            {{ range .Site.Menus.main }}
+            <li>
+              <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      </nav>
+    </div>
+  </div>
