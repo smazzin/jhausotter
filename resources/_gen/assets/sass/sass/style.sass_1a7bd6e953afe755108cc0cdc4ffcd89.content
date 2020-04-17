@@ -936,7 +936,7 @@ h1, h2, h3, h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 700px;
+  max-width: 740px;
   margin: 0;
   padding: 0; }
   .nav-ul > li {
@@ -1569,12 +1569,12 @@ article > p {
   background-color: #e6e6e6; }
 
 footer {
-  background: #1078FF; }
+  background: #e6e6e6; }
 
 .footer {
   padding: 1rem 0; }
-  .footer p, .footer a {
-    color: #fff;
+  .footer h4, .footer p, .footer a {
+    color: #1078FF;
     margin-top: 0; }
 
 .svg-box {

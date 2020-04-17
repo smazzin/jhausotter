@@ -2,26 +2,46 @@
   <div class="grid grid--container">
       <div class="row row--sm-center">
         <div class="col col--sm">
-          <p>
-            {{- with .Site.Copyright -}}
-              {{ . }}
-            {{- else -}}
-              {{- with .Site.Params.copyright -}}
-
+          <ul class="list-unstyled">
+            <li>
+            <span>
+              <a href="{{ .Site.BaseURL }}" id="nav-logo">
+                <img width="300" src="/img/digitalcloud-logo.png" alt="{{ .Site.Title }}">
+              </a>
+            </span>
+            </li>
+            <li>
+              <p>
+                {{- with .Site.Copyright -}}
+                {{ . }}
+                {{- else -}}
+                {{- with .Site.Params.copyright -}}
+              
                 {{ with .startyear }}
-                  {{ if lt ( int . ) now.Year }}
-                    {{ $.Scratch.Set "copyrightStartYear" . }}
-                  {{ end }}
+                {{ if lt ( int . ) now.Year }}
+                {{ $.Scratch.Set "copyrightStartYear" . }}
                 {{ end }}
+                {{ end }}
+              
+                {{ .prefix }} &copy; {{ with ( $.Scratch.Get "copyrightStartYear" ) }}{{ . }}-{{ end }}{{ now.Year }}
+                {{ or .holder $.Site.Title }} {{ .suffix }}
+                {{- end -}}
+                {{ end }}
+              </p>
+            </li>
+          </ul>
 
-                {{ .prefix }} &copy; {{ with ( $.Scratch.Get "copyrightStartYear" ) }}{{ . }}-{{ end }}{{ now.Year }} {{ or .holder $.Site.Title }} {{ .suffix }}
-              {{- end -}}
-            {{ end }}
-        </p>
         </div>
-        <div class="col col--sm text--sm-right">
-          <a class="ghost-button-rounded-corners-white" href="/contact">Contact</a>
+        <div class="col col--sm text--sm-left">
+          <h4>Contact Us</h4>
+          <ul class="list-unstyled">
+            
+            <li><a class="phone-number-alt" href="tel:541-391-1038">(541) 391-1038</a></li>
+            <li>Mon - Fri 8:00AM-6:00PM</li>
+            <li>Sat - Sun Closed</li>
+          </ul>
         </div>
+        
       </div>
     </div>
   </footer>

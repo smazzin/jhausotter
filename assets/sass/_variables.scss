@@ -11,12 +11,12 @@ $breakpoints: (
 $columns: 12 !default;
 
 // Colors
-$primary: 	  #1078FF;
-$primary-alt: #e0ecf3;
-$secondary: #dddddd;
+$primary: 	#1078FF;
+$primary-alt:   #e0ecf3;
+$secondary:     #dddddd;
 $green:		#3ECF8E;
-$white:     #ffffff;
-$grey:      #f6f9fc;
-$light-grey: #e6e6e6;
-$dark-grey: #6b7c93;
+$white:         #ffffff;
+$grey:          #f6f9fc;
+$light-grey:    #e6e6e6;
+$dark-grey:     #6b7c93;
 $dark-grey-alt: darken($dark-grey, 20%)

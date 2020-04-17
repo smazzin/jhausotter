@@ -31,18 +31,20 @@
     {
     "@context": "http://schema.org/",
     "@type": ["LocalBusiness","Service"],
-    "name": "Digital Cloud",
+        "aggregateRating" : {
+        "@type" : "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3"
+    },
+    "name": "Digital Cloud, LLC",
     "description": "Creative web design company based in Roseburg, OR",
-    "image": "https://www.jhausotter.com/img/josh-avatar.jpg",
-    "url": "https://www.jhausotter.com",
-    "email": "jhausotter@gmail.com",
+    "logo": "https://www.digitalcloudnw.com/img/digitalcloud-logo.png",
+    "image": "https://www.digitalcloudnw.com/img/digitalcloud-logo.png",
+    "url": "https://www.digitalcloudnw.com",
+    "email": "josh@digitalcloudnw.com",
     "telephone": "541-391-1038",
-    "openingHours": "Mo-Su 00:00-23:59:59",
+    "openingHours": "Mo-Fr 08:00-18:00",
     "serviceType": "Web Design, Web Development, SEO, and Google Marketing",
-        "sameAs": [
-        "https://www.facebook.com/jhausotterdesign",
-        "https://www.instagram.com/jhausotterdesign/"
-        ],
         "priceRange" : "$$$",
         "address" : {
         "@type" : "PostalAddress",
@@ -51,20 +53,43 @@
         "addressRegion" : "OR",
         "postalCode" : "97471"
     },
-    "areaServed": ["Roseburg, OR", "Oregon", "United States"],
-    "provider": {
-        "@type": "Person",
-        "name" : "Joshua Hausotter",
-        "image": "/img/josh-avatar.jpg",
-        "url" : "https://www.jhausotter.com",
-        "sameAs" : [
-        "https://twitter.com/staywyld",
-        "https://www.facebook.com/jhausotterdesign",
-        "https://www.instagram.com/jhausotterdesign/",
-        "https://plus.google.com/u/0/100315376894555391355",
-        "https://www.flickr.com/photos/joshuaj/"
-        ]
-        },
+    "areaServed" : [
+                {"@type" : "Place",
+                            "name": ["Roseburg, Oregon"]
+                },
+                {"@type" : "Place",
+                            "name": ["Winston, Oregon"]
+                },
+                {"@type" : "Place",
+                            "name": ["Glid, Oregon"]
+                },
+                {"@type" : "Place",
+                            "name": ["Sutherlin, Oregon"]
+                },
+                {"@type" : "Place",
+                            "name": ["Myrtle Creek, Oregon"]
+                },
+                {"@type" : "Place",
+                        "name": ["Riddle, Oregon"]
+                },
+                {"@type" : "Place",
+                        "name": ["Winchester, Oregon"]
+                },
+                {"@type" : "Place",
+                        "name": ["Elkton, Oregon"]
+                },
+                {"@type" : "Place",
+                        "name": ["Eugene, Oregon"]
+                },
+                {"@type" : "Place",
+                        "name": ["Cottage Grove, Oregon"]
+                },
+                {
+                    "@type": "State",
+                    "name": "Oregon"
+                }
+                
+            ],
     "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Services",
