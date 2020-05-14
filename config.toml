@@ -63,12 +63,11 @@ titleSeparator = "•"
 
 [params.social]
 email = "josh@digitalcloudnw.com"
-github = "smazzin"
-instagram = "jhausotter"
-twitter = "staywyld"
+instagram = "digitalcloudnw"
+facebook = "digitalcloudnw"
 
 [params.social.config]
-platforms = ["github","twitter","instagram","email"]
+platforms = ["facebook","instagram","email"]
 
 # [taxonomies]
 #   author = "authors"

@@ -34,15 +34,17 @@
         "aggregateRating" : {
         "@type" : "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": "3"
+        "reviewCount": "5"
     },
     "name": "Digital Cloud, LLC",
     "description": "Creative web design company based in Roseburg, OR",
+    "sameAs": ["https://www.facebook.com/digitalcloudnw/",
+                "https://www.instagram.com/digitalcloudnw/"],
     "logo": "https://www.digitalcloudnw.com/img/digitalcloud-logo.png",
     "image": "https://www.digitalcloudnw.com/img/digitalcloud-logo.png",
     "url": "https://www.digitalcloudnw.com",
     "email": "josh@digitalcloudnw.com",
-    "telephone": "541-391-1038",
+    "telephone": "541-375-0255",
     "openingHours": "Mo-Fr 08:00-18:00",
     "serviceType": "Web Design, Web Development, SEO, and Google Marketing",
         "priceRange" : "$$$",
@@ -174,6 +176,8 @@
     {{ block "main" . }}{{ end }}
 
     {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+
+    
 
     {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
 </body>

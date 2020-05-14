@@ -1592,3 +1592,9 @@ footer {
   position: absolute;
   top: 0;
   left: 0; }
+
+.social-menu {
+  list-style: none; }
+
+.icon {
+  width: 1.25em; }
