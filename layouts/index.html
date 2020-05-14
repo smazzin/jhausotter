@@ -212,7 +212,7 @@
                                           <path d="M0 77.4648C0 78.6733 0.478419 79.8324 1.33001 80.6869C2.1816 81.5415 3.33661 82.0215 4.54094 82.0215H77.196C78.4004 82.0215 79.5554 81.5415 80.407 80.6869C81.2586 79.8324 81.737 78.6733 81.737 77.4648V4.55675C81.737 3.34823 81.2586 2.1892 80.407 1.33464C79.5554 0.480085 78.4004 0 77.196 0H4.54094C3.33661 0 2.1816 0.480085 1.33001 1.33464C0.478419 2.1892 0 3.34823 0 4.55675V77.4648ZM9.08189 31.8973H49.9504V72.908H9.08189V31.8973ZM59.0323 72.908V31.8973H72.6551V72.908H59.0323ZM72.6551 9.11351V22.7838H9.08189V9.11351H72.6551Z"
                                                 fill="black" />
                                     </svg>
-                                    <h2>Web Design</h2>
+                                    <h2>Website Design</h2>
                                     <p class="text--xs-left">We build & design beautiful websites that work for you. We
                                           want to produce the best experience tailored to your audience.</p>
                               </div>
@@ -244,7 +244,7 @@
                                                 transform="translate(53.6935 67.3684)" fill="black" />
                                     </svg>
                                     <h2>eCommerce</h2>
-                                    <p class="text--xs-left">We can build custom solutions that fit your business needs
+                                    <p class="text--xs-left">We can build & design custom solutions that fit your business needs
                                           and make it easy for your customers to buy your products online.</p>
                               </div>
                         </div>
@@ -255,13 +255,35 @@
             <div class="grid grid--container">
                   <div class="row">
                         <div class="col col--sm-12 text--xs-center">
-                              <h3>Some Recent Work</h3>
+                              <h3>Our Happy Clients</h3>
                         </div>
-                        <div class="col col--sm-4 col--sm-offset-1">
-                              <img alt="Website design for Duncan MC Construction, LLC" src="/img/dmc-construction.png">
+                        <div class="row">
+                              <div class="col col--sm col--sm-align-center">
+                                    <img alt="Website design for On the Fly Art NW" src="/img/on-the-fly-art-nw.jpg">
+                              </div>
+                              <div class="col col col--sm col--sm-offset-1 col--sm-align-center">
+                                    <h4>{{ .Site.Data.portfolio.ontheflyartnw.Name }}</h4>
+                                    <div class="summary">
+                                          <p>{{ .Site.Data.portfolio.ontheflyartnw.summary }}</p>
+                                    </div>
+                                    <div class="tags">
+                                          {{ range .Site.Data.portfolio.ontheflyartnw.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+                                    </div>
+                              </div>
                         </div>
-                        <div class="col col--sm-4 col--sm-offset-1">
-                              <img alt="Website design for Elevate Heating & Cooling, LLC" src="/img/elevateheating.png">
+                        <div class="row">
+                              <div class="col col--sm col--sm-align-center">
+                                    <h4>{{ .Site.Data.portfolio.elevateheating.Name }}</h4>
+                                    <div class="summary">
+                                          <p>{{ .Site.Data.portfolio.elevateheating.summary }}</p>
+                                    </div>
+                                    <div class="tags">
+                                          {{ range .Site.Data.portfolio.elevateheating.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+                                    </div>
+                              </div>
+                              <div class="col col col--sm col--sm-offset-1 col--sm-align-center">
+                                    <img alt="Website design for Elevate Heating & Cooling, LLC" src="/img/elevateheating.png">
+                              </div>
                         </div>
                   </div>
             </div>
