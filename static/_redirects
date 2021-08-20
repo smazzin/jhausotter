@@ -1,6 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
 https://digitalcloud.netlify.com/* https://www.digitalcloudnw.com/:splat 301!
-
-# Redirect jhausotter
-https://jhausotter.com/* https://www.digitalcloudnw.com/:splat 301!
-https://www.jhausotter.com/* https://www.digitalcloudnw.com/:splat 301!
