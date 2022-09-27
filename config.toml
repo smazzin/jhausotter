@@ -1,4 +1,4 @@
-baseURL = "https://www.digitalcloudnw.com/"
+baseURL = "/"
 title = "Digital Cloud"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
