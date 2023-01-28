@@ -12,7 +12,16 @@
 {{ end }}
 <title>{{ .Title }}</title>
 <meta name="description" content="{{ .Description }}">
+
+{{/*  meta for twitter card  */}}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
+{{/*  meta for facebook ogp  */}}
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
 {{ with .Site.Params.author }}
 <meta name="author" content="{{ . }}">{{ end }}
 <meta name="google-site-verification" content="Em7dNCUhuM-z_bP_RUsQxJHVCMRowrl-7QXPmUJQUPw" />
