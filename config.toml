@@ -62,7 +62,7 @@ page = "staywyld" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-email = "josh@digitalcloudnw.com"
+email = ""
 instagram = "digitalcloudnw"
 facebook = "digitalcloudnw"
 
