@@ -64,10 +64,10 @@ titleSeparator = "•"
 [params.social]
 email = ""
 instagram = "digitalcloudnw"
-facebook = "digitalcloudnw"
+# facebook = "digitalcloudnw"
 
 [params.social.config]
-platforms = ["facebook","instagram","email"]
+platforms = ["instagram","email"]
 
 # [taxonomies]
 #   author = "authors"
