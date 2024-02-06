@@ -82,26 +82,39 @@ platforms = ["instagram","email"]
 page = "/:slug/"
 
 [[menu.main]]
-name = "Portfolio"
+name = "Services"
 weight = 1
+identifier = "Services"
+url = "#"
+
+[[menu.main]]
+name = "Web Design"
+weight = 2
+identifier = "Web Design"
+url = "web-design"
+parent = "Services"
+
+[[menu.main]]
+name = "Portfolio"
+weight = 3
 identifier = "Portfolio"
 url = "portfolio"
 
 [[menu.main]]
 name = "About"
-weight = 2
+weight = 4
 identifier = "About"
 url = "about"
 
 [[menu.main]]
 name = "Blog"
-weight = 3
+weight = 5
 identifier = "Blog"
 url = "blog"
 
 [[menu.main]]
 name = "Contact"
-weight = 4
+weight = 6
 identifier = "Contact"
 class = "contact"
 url = "contact"

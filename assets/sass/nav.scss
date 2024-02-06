@@ -193,3 +193,50 @@
   max-width: 225px;
   height: auto;
 }
+
+.sub-nav {
+  display: none;
+  position: absolute;
+  background-color: var(--clr-neutral-50);
+  padding: 5px 5px;
+  list-style: none; 
+  width: auto;   
+  background: var(--clr-neutral-50);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--clr-primary-100);
+  background-color: var(--clr-neutral-50);
+  box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.06);
+    -webkit-transition: color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, color 300ms ease;
+    transition: transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  @media screen and (max-width: 768px) {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    z-index: 999;
+  }
+}
+
+.nav__link {
+ &:hover + .sub-nav {
+   display: block;
+   z-index: 999;
+}
+}
+
+.sub-nav {
+&:hover {
+  display: block;
+  z-index: 1;
+}
+}
+
+.dropdown a svg {
+position: relative;
+display: flex;
+align-self: center;
+margin-left: .5em;
+}
