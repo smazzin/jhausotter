@@ -6,8 +6,6 @@ tags: []
 pagetitle: Terms and Conditions
 image: ""
 showonlyimage: "false"
-noindex: "true"
-sitemap_exclude: true
 ---
 
 SMS Privacy Policy
