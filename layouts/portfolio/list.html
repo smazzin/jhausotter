@@ -27,7 +27,7 @@
 
             <h4><a href="{{ .Url }}" target="_blank">{{ .Name }}</a></h4>
 
-                <span>{{ .description }}</span>
+                <span>{{ .description | markdownify }}</span>
 
             <div class="summary">
                 <p>{{ .summary }}</p>
