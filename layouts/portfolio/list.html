@@ -18,14 +18,12 @@
       <div class="row item">
         <div class="col col--sm col--sm-align-center">
            <div class="box-masonry">
-            <a href="{{ .Url }}" target="_blank">
-                <img src="{{ .image }}" alt="Website designed for {{ .Name }}" class="img-responsive">
-            </a>
+              <img src="{{ .image }}" alt="Website designed for {{ .Name }}" class="img-responsive">
             </div>
         </div>
         <div class="col col col--sm col--sm-offset-1 col--sm-align-center">
 
-            <h4><a href="{{ .Url }}" target="_blank">{{ .Name }}</a></h4>
+            <h4>{{ .Name }}</h4>
 
                 <span>{{ .description | markdownify }}</span>
 
