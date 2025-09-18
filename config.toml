@@ -63,7 +63,7 @@ titleSeparator = "•"
 
 [params.social]
 email = ""
-instagram = "digitalcloudnw"
+# instagram = "digitalcloudnw"
 # facebook = "digitalcloudnw"
 
 [params.social.config]
