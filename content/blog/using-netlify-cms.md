@@ -6,7 +6,7 @@ pagetitle: Using Netlify CMS with Hugo
 ---
 ## Getting started with Netlify CMS...
 
-The steps were pretty straightforward as outlined [here](https://www.netlifycms.org/docs/add-to-your-site/). The part that was confusing for me was mapping the front matter to the "fields" in the `config.yml.`
+Update: Since writing this post, Netlify CMS has since become Decap CMS. The information below is still relevant, but for the latest on Decap CMS, please visit their [official documentation](https://decapcms.org/docs/).
 
 Below is what part of my config.yml looks like;
 

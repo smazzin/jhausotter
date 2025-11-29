@@ -1,7 +1,7 @@
 	<footer class="footer">
   <div class="grid grid--container">
-      <div class="row row--sm-center">
-        <div class="col col--sm">
+      <div class="row row--sm-center row--md-top">
+        <div class="col col--sm-3">
           <ul class="list-unstyled">
             <li>
             <span>
@@ -32,13 +32,32 @@
           </ul>
 
         </div>
-        <div class="col col--sm text--sm-left">
+        <div class="col col--sm-3 text--sm-left">
           <h4>Contact Us</h4>
           <ul class="list-unstyled">
             
             <li><a class="phone-number-alt" href="tel:541-391-1038">(541) 391-1038</a></li>
             <li>Mon - Fri 8:00AM-5:00PM</li>
             <li>Sat - Sun Closed</li>
+          </ul>
+        </div>
+
+        <div class="col col--md-3 text--sm-left">
+          <h4>Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="{{ .Site.BaseURL }}web-design/">Web Design</a></li>
+            <li><a href="{{ .Site.BaseURL }}web-development/">Web Development</a></li>
+            <li><a href="{{ .Site.BaseURL }}local-seo/">Local SEO</a></li>
+          </ul>
+        </div>
+
+        <div class="col col--md-3 text--sm-left">
+          <h4>Company</h4>
+          <ul class="list-unstyled">
+            <li><a href="{{ .Site.BaseURL }}about/">About</a></li>
+            <li><a href="{{ .Site.BaseURL }}portfolio/">Portfolio</a></li>
+            <li><a href="{{ .Site.BaseURL }}blog/">Blog</a></li>
+            <li><a href="{{ .Site.BaseURL }}contact/">Contact</a></li>
           </ul>
         </div>
 

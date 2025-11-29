@@ -81,36 +81,50 @@ platforms = ["instagram","email"]
 [permalinks]
 page = "/:slug/"
 
-[[menu.main]]
-name = "Services"
-weight = 1
-identifier = "Services"
-url = "#"
+# [[menu.main]]
+# name = "Services"
+# weight = 1
+# identifier = "Services"
+# url = "#"
 
 [[menu.main]]
 name = "Web Design"
-weight = 2
+weight = 1
 identifier = "Web Design"
 url = "web-design"
-parent = "Services"
+# parent = "Services"
 
 [[menu.main]]
-name = "Portfolio"
+name = "Web Development"
+weight = 2
+identifier = "Web Development"
+url = "web-development"
+# parent = "Services"
+
+[[menu.main]]
+name = "Local SEO"
 weight = 3
-identifier = "Portfolio"
-url = "portfolio"
+identifier = "Local SEO"
+url = "local-seo"
+# parent = "Services"
 
-[[menu.main]]
-name = "About"
-weight = 4
-identifier = "About"
-url = "about"
+# [[menu.main]]
+# name = "Portfolio"
+# weight = 3
+# identifier = "Portfolio"
+# url = "portfolio"
 
-[[menu.main]]
-name = "Blog"
-weight = 5
-identifier = "Blog"
-url = "blog"
+# [[menu.main]]
+# name = "About"
+# weight = 4
+# identifier = "About"
+# url = "about"
+
+# [[menu.main]]
+# name = "Blog"
+# weight = 5
+# identifier = "Blog"
+# url = "blog"
 
 [[menu.main]]
 name = "Contact"
