@@ -91,21 +91,21 @@ page = "/:slug/"
 name = "Web Design"
 weight = 1
 identifier = "Web Design"
-url = "web-design"
+url = "web-design/"
 # parent = "Services"
 
 [[menu.main]]
 name = "Web Development"
 weight = 2
 identifier = "Web Development"
-url = "web-development"
+url = "web-development/"
 # parent = "Services"
 
 [[menu.main]]
 name = "Local SEO"
 weight = 3
 identifier = "Local SEO"
-url = "local-seo"
+url = "local-seo/"
 # parent = "Services"
 
 # [[menu.main]]
@@ -131,7 +131,7 @@ name = "Contact"
 weight = 6
 identifier = "Contact"
 class = "contact"
-url = "contact"
+url = "contact/"
 
 [blackfriday]
 hrefTargetBlank = true
