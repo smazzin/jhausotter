@@ -10,4 +10,4 @@ layout: single
 
 You want an experienced professional you can trust. Businesses often struggle to find ways to get new customers or clients. We take the time to get to know your business and can provide custom digital marketing services that will help you get results.
 
-We keep up on the latest technology, as this is crucial for any Digital Marketer. If you are a business or local buisness seeking to increase your online web presence, you can get in touch with us [here](/contact).
+We keep up on the latest technology, as this is crucial for any Digital Marketer. If you are a business or local buisness seeking to increase your online web presence, you can get in touch with us [here](/contact/).
