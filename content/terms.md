@@ -1,6 +1,7 @@
 ---
 date: "2017-11-10T16:20:50-08:00"
 title: "Terms and Conditons"
+description: "Terms and Conditions for Digital Cloud LLC SMS Service"
 authors: []
 tags: []
 pagetitle: Terms and Conditions
