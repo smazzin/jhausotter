@@ -52,8 +52,6 @@ hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
 
-disqusShortname = "jhausotter"
-
 [params.opengraph.twitter]
 page = "staywyld" # Twitter page username
 
