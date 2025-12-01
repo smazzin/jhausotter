@@ -37,6 +37,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params.assets]
 favicon = "favicon.ico"
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+logo = "img/digitalcloud-logo.png" # site logo
 
 [params.copyright]
 prefix = ""
