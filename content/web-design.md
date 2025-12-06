@@ -17,7 +17,6 @@ We take a collaborative approach to web design, working closely with our clients
 
 - Custom web design
 - Website redesign
-- E-commerce web design
 
 ### Custom Web Design
 
@@ -26,10 +25,6 @@ Our custom website design service starts with a consultation to understand your 
 ### Website Redesign
 
 If you already have a website but it’s not performing as well as you’d like, we can help. Our website redesign service will give your site a fresh new look and feel, and we’ll make sure that it’s optimized for search engines and mobile devices. We’ll also make sure that your website is easy to navigate and that it provides a seamless user experience for your customers.
-
-### E-Commerce Web Design
-
-If you're looking to sell products or services online, our e-commerce website design service is just what you need. We will work with you to create a custom e-commerce solution that meets your specific needs, from a simple shopping cart to a complex online store. Our e-commerce websites are designed to be user-friendly and easy to navigate, making it easy for your customers to find what they're looking for and make a purchase.
 
 ### Get Started Today
 
